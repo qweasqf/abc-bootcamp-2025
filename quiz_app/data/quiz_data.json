@@ -1,0 +1,3876 @@
+{
+  "categories": {
+    "일반상식": [
+      {
+        "id": "general_001",
+        "question": "지구에서 가장 큰 대륙은?",
+        "options": ["아시아", "아프리카", "북아메리카", "남아메리카"],
+        "correct_answer": "아시아",
+        "explanation": "아시아는 세계에서 가장 큰 대륙으로, 전 세계 육지 면적의 약 30%를 차지합니다."
+      },
+      {
+        "id": "general_002",
+        "question": "한국의 국화는?",
+        "options": ["장미", "무궁화", "벚꽃", "국화"],
+        "correct_answer": "무궁화",
+        "explanation": "무궁화는 대한민국의 국화로, '영원히 피고 또 피어서 지지 않는 꽃'이라는 의미입니다."
+      },
+      {
+        "id": "general_003",
+        "question": "세계에서 가장 높은 산은?",
+        "options": ["K2", "에베레스트", "킬리만자로", "후지산"],
+        "correct_answer": "에베레스트",
+        "explanation": "에베레스트산은 해발 8,848m로 세계에서 가장 높은 산입니다."
+      },
+      {
+        "id": "general_004",
+        "question": "태양계에서 가장 큰 행성은?",
+        "options": ["토성", "목성", "해왕성", "천왕성"],
+        "correct_answer": "목성",
+        "explanation": "목성은 태양계에서 가장 큰 행성으로, 지구보다 약 1,300배 큽니다."
+      },
+      {
+        "id": "general_005",
+        "question": "물의 끓는점은?",
+        "options": ["90℃", "95℃", "100℃", "105℃"],
+        "correct_answer": "100℃",
+        "explanation": "1기압에서 물의 끓는점은 100℃입니다."
+      },
+      {
+        "id": "general_006",
+        "question": "인체에서 가장 큰 장기는?",
+        "options": ["간", "폐", "피부", "심장"],
+        "correct_answer": "피부",
+        "explanation": "피부는 인체에서 가장 큰 장기로, 체중의 약 16%를 차지합니다."
+      },
+      {
+        "id": "general_007",
+        "question": "세계에서 가장 긴 강은?",
+        "options": ["나일강", "아마존강", "양쯔강", "미시시피강"],
+        "correct_answer": "나일강",
+        "explanation": "나일강은 세계에서 가장 긴 강으로 약 6,650km입니다."
+      },
+      {
+        "id": "general_008",
+        "question": "세계에서 가장 작은 나라는?",
+        "options": ["모나코", "바티칸", "산마리노", "리히텐슈타인"],
+        "correct_answer": "바티칸",
+        "explanation": "바티칸 시국은 면적 0.44km²로 세계에서 가장 작은 나라입니다."
+      },
+      {
+        "id": "general_009",
+        "question": "중력 가속도는 약?",
+        "options": ["9.8m/s²", "8.9m/s²", "10m/s²", "9.0m/s²"],
+        "correct_answer": "9.8m/s²",
+        "explanation": "지구의 중력 가속도는 약 9.8m/s²입니다."
+      },
+      {
+        "id": "general_010",
+        "question": "일년은 몇 일인가?",
+        "options": ["364일", "365일", "366일", "367일"],
+        "correct_answer": "365일",
+        "explanation": "평년은 365일, 윤년은 366일입니다."
+      },
+      {
+        "id": "general_011",
+        "question": "한국의 전통 주거 형태는?",
+        "options": ["한옥", "양옥", "아파트", "빌라"],
+        "correct_answer": "한옥",
+        "explanation": "한옥은 한국의 전통적인 주거 형태입니다."
+      },
+      {
+        "id": "general_012",
+        "question": "지구의 자전 주기는?",
+        "options": ["12시간", "24시간", "48시간", "72시간"],
+        "correct_answer": "24시간",
+        "explanation": "지구는 24시간마다 한 바퀴씩 자전합니다."
+      },
+      {
+        "id": "general_013",
+        "question": "한국의 전통 음식이 아닌 것은?",
+        "options": ["김치", "불고기", "비빔밥", "라면"],
+        "correct_answer": "라면",
+        "explanation": "라면은 일본에서 유래된 음식으로 한국 전통 음식이 아닙니다."
+      },
+      {
+        "id": "general_014",
+        "question": "세계에서 가장 깊은 바다는?",
+        "options": ["태평양", "대서양", "인도양", "북극해"],
+        "correct_answer": "태평양",
+        "explanation": "태평양의 마리아나 해구가 세계에서 가장 깊습니다."
+      },
+      {
+        "id": "general_015",
+        "question": "한국의 전통 악기가 아닌 것은?",
+        "options": ["가야금", "거문고", "대금", "바이올린"],
+        "correct_answer": "바이올린",
+        "explanation": "바이올린은 서양 악기로 한국 전통 악기가 아닙니다."
+      },
+      {
+        "id": "general_016",
+        "question": "지구에서 가장 큰 사막은?",
+        "options": ["사하라 사막", "고비 사막", "칼라하리 사막", "아타카마 사막"],
+        "correct_answer": "사하라 사막",
+        "explanation": "사하라 사막은 아프리카에 위치한 세계 최대의 사막입니다."
+      },
+      {
+        "id": "general_017",
+        "question": "한국의 화폐 단위는?",
+        "options": ["원", "달러", "엔", "위안"],
+        "correct_answer": "원",
+        "explanation": "대한민국의 화폐 단위는 원(₩)입니다."
+      },
+      {
+        "id": "general_018",
+        "question": "세계에서 가장 높은 폭포는?",
+        "options": ["나이아가라 폭포", "엔젤 폭포", "이과수 폭포", "빅토리아 폭포"],
+        "correct_answer": "엔젤 폭포",
+        "explanation": "베네수엘라의 엔젤 폭포가 세계에서 가장 높은 폭포입니다."
+      },
+      {
+        "id": "general_019",
+        "question": "한국의 3대 명절이 아닌 것은?",
+        "options": ["설날", "추석", "단오", "크리스마스"],
+        "correct_answer": "크리스마스",
+        "explanation": "한국의 3대 명절은 설날, 추석, 단오입니다."
+      },
+      {
+        "id": "general_020",
+        "question": "지구의 표면 중 바다가 차지하는 비율은?",
+        "options": ["50%", "60%", "70%", "80%"],
+        "correct_answer": "70%",
+        "explanation": "지구 표면의 약 70%가 바다로 덮여 있습니다."
+      },
+      {
+        "id": "general_021",
+        "question": "한국어의 자음 개수는?",
+        "options": ["14개", "19개", "21개", "24개"],
+        "correct_answer": "19개",
+        "explanation": "한국어의 기본 자음은 19개입니다."
+      },
+      {
+        "id": "general_022",
+        "question": "세계에서 가장 작은 새는?",
+        "options": ["벌새", "참새", "까마귀", "독수리"],
+        "correct_answer": "벌새",
+        "explanation": "벌새는 세계에서 가장 작은 새입니다."
+      },
+      {
+        "id": "general_023",
+        "question": "한국의 최고봉은?",
+        "options": ["지리산", "한라산", "설악산", "백두산"],
+        "correct_answer": "한라산",
+        "explanation": "제주도 한라산이 한국의 최고봉(1,947m)입니다."
+      },
+      {
+        "id": "general_024",
+        "question": "세계에서 가장 큰 포유동물은?",
+        "options": ["코끼리", "기린", "하마", "고래"],
+        "correct_answer": "고래",
+        "explanation": "흰긴수염고래가 세계에서 가장 큰 포유동물입니다."
+      },
+      {
+        "id": "general_025",
+        "question": "한국의 전통 차가 아닌 것은?",
+        "options": ["녹차", "홍차", "대추차", "생강차"],
+        "correct_answer": "홍차",
+        "explanation": "홍차는 인도나 스리랑카 등에서 유래된 차입니다."
+      },
+      {
+        "id": "general_026",
+        "question": "지구의 위성은?",
+        "options": ["달", "화성", "금성", "목성"],
+        "correct_answer": "달",
+        "explanation": "달은 지구의 유일한 자연 위성입니다."
+      },
+      {
+        "id": "general_027",
+        "question": "한국의 전통 놀이가 아닌 것은?",
+        "options": ["윷놀이", "제기차기", "연날리기", "체스"],
+        "correct_answer": "체스",
+        "explanation": "체스는 서양에서 유래된 놀이입니다."
+      },
+      {
+        "id": "general_028",
+        "question": "세계에서 가장 빠른 동물은?",
+        "options": ["치타", "사자", "표범", "호랑이"],
+        "correct_answer": "치타",
+        "explanation": "치타는 시속 120km로 달릴 수 있는 최고속 동물입니다."
+      },
+      {
+        "id": "general_029",
+        "question": "한국의 전통 의상은?",
+        "options": ["한복", "양복", "기모노", "치파오"],
+        "correct_answer": "한복",
+        "explanation": "한복은 한국의 전통 의상입니다."
+      },
+      {
+        "id": "general_030",
+        "question": "세계에서 가장 긴 강은?",
+        "options": ["나일강", "아마존강", "양쯔강", "미시시피강"],
+        "correct_answer": "나일강",
+        "explanation": "나일강은 세계에서 가장 긴 강으로 약 6,650km입니다."
+      },
+      {
+        "id": "general_031",
+        "question": "한국의 전통 발효식품이 아닌 것은?",
+        "options": ["김치", "된장", "고추장", "햄버거"],
+        "correct_answer": "햄버거",
+        "explanation": "햄버거는 서양 음식으로 발효식품이 아닙니다."
+      },
+      {
+        "id": "general_032",
+        "question": "지구에서 가장 추운 대륙은?",
+        "options": ["아시아", "유럽", "남극", "북극"],
+        "correct_answer": "남극",
+        "explanation": "남극 대륙이 지구에서 가장 추운 곳입니다."
+      },
+      {
+        "id": "general_033",
+        "question": "한국의 전통 집 구조에서 마루는?",
+        "options": ["나무 바닥", "흙 바닥", "돌 바닥", "시멘트 바닥"],
+        "correct_answer": "나무 바닥",
+        "explanation": "한옥의 마루는 나무로 만든 바닥입니다."
+      },
+      {
+        "id": "general_034",
+        "question": "세계에서 가장 큰 섬은?",
+        "options": ["그린란드", "호주", "마다가스카르", "영국"],
+        "correct_answer": "그린란드",
+        "explanation": "그린란드는 세계에서 가장 큰 섬입니다."
+      },
+      {
+        "id": "general_035",
+        "question": "한국의 국조(國鳥)는?",
+        "options": ["까치", "독수리", "학", "비둘기"],
+        "correct_answer": "까치",
+        "explanation": "까치는 대한민국의 국조입니다."
+      },
+      {
+        "id": "general_036",
+        "question": "세계에서 가장 높은 건물이 있는 도시는?",
+        "options": ["뉴욕", "두바이", "도쿄", "상하이"],
+        "correct_answer": "두바이",
+        "explanation": "두바이의 부르즈 칼리파가 세계에서 가장 높은 건물입니다."
+      },
+      {
+        "id": "general_037",
+        "question": "한국의 전통 주거지에서 온돌은?",
+        "options": ["난방시설", "조명시설", "환기시설", "보안시설"],
+        "correct_answer": "난방시설",
+        "explanation": "온돌은 바닥을 따뜻하게 하는 전통 난방시설입니다."
+      },
+      {
+        "id": "general_038",
+        "question": "지구의 대기 중 가장 많은 기체는?",
+        "options": ["산소", "질소", "이산화탄소", "수소"],
+        "correct_answer": "질소",
+        "explanation": "지구 대기의 78%는 질소로 구성되어 있습니다."
+      },
+      {
+        "id": "general_039",
+        "question": "한국의 전통 무예는?",
+        "options": ["태권도", "가라테", "쿵푸", "유도"],
+        "correct_answer": "태권도",
+        "explanation": "태권도는 한국의 전통 무예입니다."
+      },
+      {
+        "id": "general_040",
+        "question": "세계에서 가장 많이 사용되는 언어는?",
+        "options": ["영어", "중국어", "스페인어", "힌디어"],
+        "correct_answer": "중국어",
+        "explanation": "중국어는 사용자 수가 가장 많은 언어입니다."
+      },
+      {
+        "id": "general_041",
+        "question": "한국의 전통 문자는?",
+        "options": ["한글", "한자", "영어", "일본어"],
+        "correct_answer": "한글",
+        "explanation": "한글은 세종대왕이 창제한 한국의 전통 문자입니다."
+      },
+      {
+        "id": "general_042",
+        "question": "세계에서 가장 큰 바다는?",
+        "options": ["태평양", "대서양", "인도양", "북극해"],
+        "correct_answer": "태평양",
+        "explanation": "태평양은 세계에서 가장 큰 바다입니다."
+      },
+      {
+        "id": "general_043",
+        "question": "한국의 전통 혼례에서 신부가 입는 옷은?",
+        "options": ["원삼", "치마저고리", "당의", "활옷"],
+        "correct_answer": "활옷",
+        "explanation": "활옷은 전통 혼례에서 신부가 입는 예복입니다."
+      },
+      {
+        "id": "general_044",
+        "question": "지구에서 가장 큰 화산은?",
+        "options": ["후지산", "베수비오", "킬라우에아", "마우나로아"],
+        "correct_answer": "마우나로아",
+        "explanation": "하와이의 마우나로아가 세계에서 가장 큰 활화산입니다."
+      },
+      {
+        "id": "general_045",
+        "question": "한국의 전통 건축에서 처마는?",
+        "options": ["지붕 끝", "문", "창문", "기둥"],
+        "correct_answer": "지붕 끝",
+        "explanation": "처마는 지붕의 끝부분을 말합니다."
+      },
+      {
+        "id": "general_046",
+        "question": "세계에서 가장 오래된 문명은?",
+        "options": ["이집트", "메소포타미아", "인더스", "중국"],
+        "correct_answer": "메소포타미아",
+        "explanation": "메소포타미아 문명이 가장 오래된 문명으로 알려져 있습니다."
+      },
+      {
+        "id": "general_047",
+        "question": "한국의 전통 술이 아닌 것은?",
+        "options": ["막걸리", "소주", "청주", "맥주"],
+        "correct_answer": "맥주",
+        "explanation": "맥주는 서양에서 유래된 술입니다."
+      },
+      {
+        "id": "general_048",
+        "question": "지구의 공전 주기는?",
+        "options": ["365일", "365.25일", "364일", "366일"],
+        "correct_answer": "365.25일",
+        "explanation": "지구는 약 365.25일에 태양 주위를 한 바퀴 돕니다."
+      },
+      {
+        "id": "general_049",
+        "question": "한국의 전통 색깔 조합은?",
+        "options": ["오방색", "삼원색", "무지개색", "단색"],
+        "correct_answer": "오방색",
+        "explanation": "오방색(적, 청, 황, 백, 흑)은 한국의 전통 색깔 조합입니다."
+      },
+      {
+        "id": "general_050",
+        "question": "세계에서 가장 깊은 호수는?",
+        "options": ["바이칼 호", "수페리어 호", "카스피 해", "빅토리아 호"],
+        "correct_answer": "바이칼 호",
+        "explanation": "러시아의 바이칼 호가 세계에서 가장 깊은 호수입니다."
+      }
+    ],
+    "역사": [
+      {
+        "id": "history_001",
+        "question": "한국전쟁이 시작된 연도는?",
+        "options": ["1948년", "1950년", "1952년", "1953년"],
+        "correct_answer": "1950년",
+        "explanation": "한국전쟁은 1950년 6월 25일 북한의 남침으로 시작되었습니다."
+      },
+      {
+        "id": "history_002",
+        "question": "광복절은 언제인가?",
+        "options": ["8월 13일", "8월 14일", "8월 15일", "8월 16일"],
+        "correct_answer": "8월 15일",
+        "explanation": "광복절은 1945년 8월 15일 일제강점기에서 해방된 것을 기념하는 날입니다."
+      },
+      {
+        "id": "history_003",
+        "question": "조선을 건국한 사람은?",
+        "options": ["이성계", "왕건", "박혁거세", "김수로"],
+        "correct_answer": "이성계",
+        "explanation": "이성계(태조)가 1392년 조선을 건국했습니다."
+      },
+      {
+        "id": "history_004",
+        "question": "세종대왕이 만든 것은?",
+        "options": ["거북선", "한글", "측우기", "해시계"],
+        "correct_answer": "한글",
+        "explanation": "세종대왕은 1443년 훈민정음(한글)을 창제했습니다."
+      },
+      {
+        "id": "history_005",
+        "question": "임진왜란이 일어난 연도는?",
+        "options": ["1591년", "1592년", "1593년", "1594년"],
+        "correct_answer": "1592년",
+        "explanation": "임진왜란은 1592년부터 1598년까지 일본이 조선을 침입한 전쟁입니다."
+      },
+      {
+        "id": "history_006",
+        "question": "고구려를 건국한 사람은?",
+        "options": ["온조", "주몽", "박혁거세", "김수로"],
+        "correct_answer": "주몽",
+        "explanation": "주몽(동명성왕)이 기원전 37년 고구려를 건국했습니다."
+      },
+      {
+        "id": "history_007",
+        "question": "3.1운동이 일어난 연도는?",
+        "options": ["1918년", "1919년", "1920년", "1921년"],
+        "correct_answer": "1919년",
+        "explanation": "3.1운동은 1919년 3월 1일에 시작되었습니다."
+      },
+      {
+        "id": "history_008",
+        "question": "일제강점기는 몇 년간 지속되었나?",
+        "options": ["30년", "35년", "40년", "45년"],
+        "correct_answer": "35년",
+        "explanation": "1910년부터 1945년까지 35년간 지속되었습니다."
+      },
+      {
+        "id": "history_009",
+        "question": "대한민국 정부수립 연도는?",
+        "options": ["1945년", "1947년", "1948년", "1949년"],
+        "correct_answer": "1948년",
+        "explanation": "1948년 8월 15일 대한민국 정부가 수립되었습니다."
+      },
+      {
+        "id": "history_010",
+        "question": "88올림픽이 열린 도시는?",
+        "options": ["부산", "서울", "인천", "대구"],
+        "correct_answer": "서울",
+        "explanation": "1988년 서울올림픽이 개최되었습니다."
+      },
+      {
+        "id": "history_011",
+        "question": "을사늑약이 체결된 연도는?",
+        "options": ["1904년", "1905년", "1906년", "1907년"],
+        "correct_answer": "1905년",
+        "explanation": "을사늑약(을사조약)은 1905년에 체결되어 외교권을 박탈당했습니다."
+      },
+      {
+        "id": "history_012",
+        "question": "삼국통일을 완성한 신라의 왕은?",
+        "options": ["진흥왕", "문무왕", "선덕여왕", "무열왕"],
+        "correct_answer": "문무왕",
+        "explanation": "문무왕이 676년 삼국통일을 완성했습니다."
+      },
+      {
+        "id": "history_013",
+        "question": "고려의 수도는?",
+        "options": ["개성", "서울", "평양", "경주"],
+        "correct_answer": "개성",
+        "explanation": "고려의 수도는 개성(개경)이었습니다."
+      },
+      {
+        "id": "history_014",
+        "question": "조선의 마지막 왕은?",
+        "options": ["고종", "순종", "영친왕", "의친왕"],
+        "correct_answer": "순종",
+        "explanation": "순종이 조선의 마지막 황제였습니다."
+      },
+      {
+        "id": "history_015",
+        "question": "백제의 마지막 수도는?",
+        "options": ["위례성", "웅진", "사비", "한산"],
+        "correct_answer": "사비",
+        "explanation": "백제의 마지막 수도는 사비(부여)였습니다."
+      },
+      {
+        "id": "history_016",
+        "question": "몽골침입(몽골의 7차 침입) 기간은?",
+        "options": ["1231-1270년", "1231-1280년", "1220-1270년", "1240-1280년"],
+        "correct_answer": "1231-1270년",
+        "explanation": "몽골은 1231년부터 1270년까지 7차례 고려를 침입했습니다."
+      },
+      {
+        "id": "history_017",
+        "question": "조선왕조실록의 편찬 목적은?",
+        "options": ["왕의 업적 기록", "역사 기록", "정치 기록", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "조선왕조실록은 왕의 업적과 정치, 사회 전반의 역사를 기록한 사료입니다."
+      },
+      {
+        "id": "history_018",
+        "question": "단군신화에서 단군의 아버지는?",
+        "options": ["환웅", "환인", "곰", "호랑이"],
+        "correct_answer": "환웅",
+        "explanation": "단군신화에서 단군의 아버지는 환웅입니다."
+      },
+      {
+        "id": "history_019",
+        "question": "대한제국이 선포된 연도는?",
+        "options": ["1895년", "1896년", "1897년", "1898년"],
+        "correct_answer": "1897년",
+        "explanation": "고종이 1897년 대한제국을 선포했습니다."
+      },
+      {
+        "id": "history_020",
+        "question": "갑신정변이 일어난 연도는?",
+        "options": ["1882년", "1884년", "1886년", "1888년"],
+        "correct_answer": "1884년",
+        "explanation": "갑신정변은 1884년 김옥균 등이 일으킨 정치개혁 운동입니다."
+      },
+      {
+        "id": "history_021",
+        "question": "고구려의 최대 영토를 구축한 왕은?",
+        "options": ["광개토대왕", "장수왕", "연개소문", "을지문덕"],
+        "correct_answer": "장수왕",
+        "explanation": "장수왕 때 고구려의 영토가 최대로 확장되었습니다."
+      },
+      {
+        "id": "history_022",
+        "question": "신라의 화랑도를 창설한 왕은?",
+        "options": ["진흥왕", "법흥왕", "선덕여왕", "무열왕"],
+        "correct_answer": "진흥왕",
+        "explanation": "진흥왕이 화랑도를 창설하여 인재를 양성했습니다."
+      },
+      {
+        "id": "history_023",
+        "question": "고려 몽골 침입 때 강화도로 천도한 왕은?",
+        "options": ["고종", "원종", "충렬왕", "강종"],
+        "correct_answer": "고종",
+        "explanation": "고려 고종이 몽골 침입을 피해 강화도로 천도했습니다."
+      },
+      {
+        "id": "history_024",
+        "question": "조선 전기 훈민정음 창제에 반대한 신하는?",
+        "options": ["최만리", "정인지", "신숙주", "성삼문"],
+        "correct_answer": "최만리",
+        "explanation": "최만리를 비롯한 일부 신하들이 훈민정음 창제에 반대했습니다."
+      },
+      {
+        "id": "history_025",
+        "question": "임진왜란 때 의병활동을 한 승려는?",
+        "options": ["사명대사", "휴정", "유정", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "사명대사(유정)와 휴정 등 많은 승려들이 의병활동을 했습니다."
+      },
+      {
+        "id": "history_026",
+        "question": "동학농민운동의 지도자는?",
+        "options": ["전봉준", "김개남", "손화중", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "전봉준, 김개남, 손화중 등이 동학농민운동을 이끌었습니다."
+      },
+      {
+        "id": "history_027",
+        "question": "독립협회를 창립한 인물은?",
+        "options": ["서재필", "윤치호", "이상재", "박영효"],
+        "correct_answer": "서재필",
+        "explanation": "서재필이 1896년 독립협회를 창립했습니다."
+      },
+      {
+        "id": "history_028",
+        "question": "을미사변이 일어난 연도는?",
+        "options": ["1894년", "1895년", "1896년", "1897년"],
+        "correct_answer": "1895년",
+        "explanation": "1895년 을미사변으로 명성황후가 시해되었습니다."
+      },
+      {
+        "id": "history_029",
+        "question": "안중근이 이토 히로부미를 저격한 곳은?",
+        "options": ["하얼빈", "상하이", "연해주", "만주"],
+        "correct_answer": "하얼빈",
+        "explanation": "안중근은 1909년 하얼빈 역에서 이토 히로부미를 저격했습니다."
+      },
+      {
+        "id": "history_030",
+        "question": "대한민국 임시정부가 수립된 곳은?",
+        "options": ["상하이", "충칭", "한커우", "시안"],
+        "correct_answer": "상하이",
+        "explanation": "1919년 상하이에서 대한민국 임시정부가 수립되었습니다."
+      },
+      {
+        "id": "history_031",
+        "question": "윤봉길이 의거를 일으킨 곳은?",
+        "options": ["상하이", "홍커우 공원", "난징", "베이징"],
+        "correct_answer": "홍커우 공원",
+        "explanation": "윤봉길은 1932년 상하이 홍커우 공원에서 의거를 일으켰습니다."
+      },
+      {
+        "id": "history_032",
+        "question": "한국광복군을 창설한 인물은?",
+        "options": ["김구", "이승만", "김원봉", "여운형"],
+        "correct_answer": "김구",
+        "explanation": "김구가 1940년 한국광복군을 창설했습니다."
+      },
+      {
+        "id": "history_033",
+        "question": "제1차 한일협약(을사늑약)의 다른 이름은?",
+        "options": ["정미7조약", "한일신협약", "을사조약", "정미늑약"],
+        "correct_answer": "을사조약",
+        "explanation": "을사늑약은 을사조약이라고도 불립니다."
+      },
+      {
+        "id": "history_034",
+        "question": "105인 사건과 관련된 종교는?",
+        "options": ["기독교", "불교", "유교", "천도교"],
+        "correct_answer": "기독교",
+        "explanation": "105인 사건은 기독교 관련 인사들이 연루된 사건입니다."
+      },
+      {
+        "id": "history_035",
+        "question": "조선총독부 초대 총독은?",
+        "options": ["데라우치", "하세가와", "사이토", "우가키"],
+        "correct_answer": "데라우치",
+        "explanation": "데라우치 마사타케가 초대 조선총독이었습니다."
+      },
+      {
+        "id": "history_036",
+        "question": "6.25 전쟁에서 인천상륙작전을 지휘한 장군은?",
+        "options": ["맥아더", "리지웨이", "클라크", "반플리트"],
+        "correct_answer": "맥아더",
+        "explanation": "맥아더 장군이 인천상륙작전을 지휘했습니다."
+      },
+      {
+        "id": "history_037",
+        "question": "4.19 혁명이 일어난 연도는?",
+        "options": ["1958년", "1960년", "1961년", "1962년"],
+        "correct_answer": "1960년",
+        "explanation": "4.19 혁명은 1960년 4월 19일에 일어났습니다."
+      },
+      {
+        "id": "history_038",
+        "question": "5.16 군사정변을 일으킨 인물은?",
+        "options": ["박정희", "전두환", "노태우", "김영삼"],
+        "correct_answer": "박정희",
+        "explanation": "박정희가 1961년 5.16 군사정변을 일으켰습니다."
+      },
+      {
+        "id": "history_039",
+        "question": "광주민주화운동이 일어난 연도는?",
+        "options": ["1979년", "1980년", "1981년", "1982년"],
+        "correct_answer": "1980년",
+        "explanation": "광주민주화운동은 1980년 5월에 일어났습니다."
+      },
+      {
+        "id": "history_040",
+        "question": "6월 민주항쟁이 일어난 연도는?",
+        "options": ["1985년", "1986년", "1987년", "1988년"],
+        "correct_answer": "1987년",
+        "explanation": "6월 민주항쟁은 1987년 6월에 일어났습니다."
+      },
+      {
+        "id": "history_041",
+        "question": "남북 정상회담이 처음 열린 연도는?",
+        "options": ["1998년", "2000년", "2007년", "2018년"],
+        "correct_answer": "2000년",
+        "explanation": "2000년 김대중-김정일 정상회담이 최초의 남북 정상회담이었습니다."
+      },
+      {
+        "id": "history_042",
+        "question": "한글날이 공휴일로 지정된 연도는?",
+        "options": ["2006년", "2013년", "2016년", "2020년"],
+        "correct_answer": "2013년",
+        "explanation": "한글날은 2013년부터 다시 공휴일로 지정되었습니다."
+      },
+      {
+        "id": "history_043",
+        "question": "대한민국 헌법이 처음 제정된 연도는?",
+        "options": ["1947년", "1948년", "1949년", "1950년"],
+        "correct_answer": "1948년",
+        "explanation": "대한민국 헌법은 1948년 7월 17일 제정되었습니다."
+      },
+      {
+        "id": "history_044",
+        "question": "한국의 UN 가입 연도는?",
+        "options": ["1988년", "1990년", "1991년", "1992년"],
+        "correct_answer": "1991년",
+        "explanation": "대한민국은 1991년 UN에 가입했습니다."
+      },
+      {
+        "id": "history_045",
+        "question": "2002 한일 월드컵에서 한국의 성적은?",
+        "options": ["16강", "8강", "4강", "우승"],
+        "correct_answer": "4강",
+        "explanation": "2002년 월드컵에서 한국은 4강에 진출했습니다."
+      },
+      {
+        "id": "history_046",
+        "question": "경부고속도로가 개통된 연도는?",
+        "options": ["1968년", "1970년", "1972년", "1974년"],
+        "correct_answer": "1970년",
+        "explanation": "경부고속도로는 1970년에 완전 개통되었습니다."
+      },
+      {
+        "id": "history_047",
+        "question": "새마을운동이 시작된 연도는?",
+        "options": ["1970년", "1971년", "1972년", "1973년"],
+        "correct_answer": "1970년",
+        "explanation": "새마을운동은 1970년부터 시작되었습니다."
+      },
+      {
+        "id": "history_048",
+        "question": "KBS가 개국한 연도는?",
+        "options": ["1945년", "1947년", "1961년", "1973년"],
+        "correct_answer": "1947년",
+        "explanation": "KBS(경성방송국)는 1947년에 개국했습니다."
+      },
+      {
+        "id": "history_049",
+        "question": "대한민국 최초의 여성 국무총리는?",
+        "options": ["한명숙", "김대중", "박근혜", "한명숙"],
+        "correct_answer": "한명숙",
+        "explanation": "한명숙이 2006년 최초의 여성 국무총리가 되었습니다."
+      },
+      {
+        "id": "history_050",
+        "question": "제1공화국이 끝난 사건은?",
+        "options": ["3.15 부정선거", "4.19 혁명", "5.16 군사정변", "6.25 전쟁"],
+        "correct_answer": "4.19 혁명",
+        "explanation": "4.19 혁명으로 이승만 정부가 무너지며 제1공화국이 끝났습니다."
+      }
+    ],
+    "과학": [
+      {
+        "id": "science_001",
+        "question": "빛의 속도는 초당 약?",
+        "options": ["30만km", "300만km", "3000만km", "3억km"],
+        "correct_answer": "30만km",
+        "explanation": "빛의 속도는 초당 약 30만 킬로미터(정확히는 299,792,458m/s)입니다."
+      },
+      {
+        "id": "science_002",
+        "question": "DNA의 이중나선 구조를 발견한 과학자는?",
+        "options": ["다윈", "멘델", "왓슨과 크릭", "파스퇴르"],
+        "correct_answer": "왓슨과 크릭",
+        "explanation": "제임스 왓슨과 프랜시스 크릭이 1953년 DNA의 이중나선 구조를 발견했습니다."
+      },
+      {
+        "id": "science_003",
+        "question": "원소 주기율표에서 원자번호 1번은?",
+        "options": ["헬륨", "수소", "리튬", "산소"],
+        "correct_answer": "수소",
+        "explanation": "수소(H)는 원자번호 1번으로 가장 간단한 원소입니다."
+      },
+      {
+        "id": "science_004",
+        "question": "물의 화학식은?",
+        "options": ["H2O", "HO2", "H2O2", "HO"],
+        "correct_answer": "H2O",
+        "explanation": "물의 화학식은 H2O입니다."
+      },
+      {
+        "id": "science_005",
+        "question": "태양계에는 몇 개의 행성이 있나?",
+        "options": ["7개", "8개", "9개", "10개"],
+        "correct_answer": "8개",
+        "explanation": "현재 태양계에는 8개의 행성이 있습니다."
+      },
+      {
+        "id": "science_006",
+        "question": "원자의 중심에 있는 것은?",
+        "options": ["전자", "중성자", "양성자", "핵"],
+        "correct_answer": "핵",
+        "explanation": "원자의 중심에는 양성자와 중성자로 이루어진 핵이 있습니다."
+      },
+      {
+        "id": "science_007",
+        "question": "인간의 정상 체온은?",
+        "options": ["35℃", "36℃", "36.5℃", "37℃"],
+        "correct_answer": "36.5℃",
+        "explanation": "인간의 정상 체온은 평균 36.5℃입니다."
+      },
+      {
+        "id": "science_008",
+        "question": "얼음은 몇 도에서 녹나?",
+        "options": ["0℃", "1℃", "2℃", "3℃"],
+        "correct_answer": "0℃",
+        "explanation": "얼음은 0℃에서 녹습니다."
+      },
+      {
+        "id": "science_009",
+        "question": "무지개는 몇 가지 색으로 이루어져 있나?",
+        "options": ["5가지", "6가지", "7가지", "8가지"],
+        "correct_answer": "7가지",
+        "explanation": "무지개는 빨주노초파남보 7가지 색으로 이루어져 있습니다."
+      },
+      {
+        "id": "science_010",
+        "question": "심장은 몇 개의 방으로 나뉘나?",
+        "options": ["2개", "3개", "4개", "5개"],
+        "correct_answer": "4개",
+        "explanation": "인간의 심장은 4개의 방(2개의 심방, 2개의 심실)으로 나뉩니다."
+      },
+      {
+        "id": "science_011",
+        "question": "지구에서 달까지의 거리는 약?",
+        "options": ["28만km", "38만km", "48만km", "58만km"],
+        "correct_answer": "38만km",
+        "explanation": "지구에서 달까지의 평균 거리는 약 38만 4천 킬로미터입니다."
+      },
+      {
+        "id": "science_012",
+        "question": "혈액형을 발견한 과학자는?",
+        "options": ["란트슈타이너", "플레밍", "파스퇴르", "멘델"],
+        "correct_answer": "란트슈타이너",
+        "explanation": "칼 란트슈타이너가 1900년 ABO 혈액형을 발견했습니다."
+      },
+      {
+        "id": "science_013",
+        "question": "비타민 C의 화학명은?",
+        "options": ["아스코르브산", "토코페롤", "레티놀", "칼시페롤"],
+        "correct_answer": "아스코르브산",
+        "explanation": "비타민 C의 화학명은 아스코르브산입니다."
+      },
+      {
+        "id": "science_014",
+        "question": "지구의 자기장을 만드는 것은?",
+        "options": ["핵", "맨틀", "지각", "대기"],
+        "correct_answer": "핵",
+        "explanation": "지구의 액체 외핵의 움직임이 자기장을 만듭니다."
+      },
+      {
+        "id": "science_015",
+        "question": "멘델의 법칙과 관련된 식물은?",
+        "options": ["완두콩", "강낭콩", "옥수수", "벼"],
+        "correct_answer": "완두콩",
+        "explanation": "멘델은 완두콩을 이용해 유전 법칙을 발견했습니다."
+      },
+      {
+        "id": "science_016",
+        "question": "항생제를 처음 발견한 과학자는?",
+        "options": ["플레밍", "파스퇴르", "코흐", "제너"],
+        "correct_answer": "플레밍",
+        "explanation": "알렉산더 플레밍이 1928년 페니실린을 발견했습니다."
+      },
+      {
+        "id": "science_017",
+        "question": "상대성이론을 발표한 과학자는?",
+        "options": ["뉴턴", "아인슈타인", "갈릴레이", "케플러"],
+        "correct_answer": "아인슈타인",
+        "explanation": "알베르트 아인슈타인이 상대성이론을 발표했습니다."
+      },
+      {
+        "id": "science_018",
+        "question": "광합성이 일어나는 세포 소기관은?",
+        "options": ["엽록체", "미토콘드리아", "리보솜", "핵"],
+        "correct_answer": "엽록체",
+        "explanation": "식물의 엽록체에서 광합성이 일어납니다."
+      },
+      {
+        "id": "science_019",
+        "question": "산소의 원자번호는?",
+        "options": ["6", "7", "8", "9"],
+        "correct_answer": "8",
+        "explanation": "산소(O)의 원자번호는 8번입니다."
+      },
+      {
+        "id": "science_020",
+        "question": "진화론을 발표한 과학자는?",
+        "options": ["다윈", "라마르크", "월리스", "멘델"],
+        "correct_answer": "다윈",
+        "explanation": "찰스 다윈이 '종의 기원'에서 진화론을 발표했습니다."
+      },
+      {
+        "id": "science_021",
+        "question": "소리의 속도는 약?",
+        "options": ["340m/s", "3400m/s", "34000m/s", "340000m/s"],
+        "correct_answer": "340m/s",
+        "explanation": "공기 중에서 소리의 속도는 약 340m/s입니다."
+      },
+      {
+        "id": "science_022",
+        "question": "전자를 발견한 과학자는?",
+        "options": ["톰슨", "러더포드", "보어", "쿠리"],
+        "correct_answer": "톰슨",
+        "explanation": "J.J. 톰슨이 1897년 전자를 발견했습니다."
+      },
+      {
+        "id": "science_023",
+        "question": "주기율표를 만든 과학자는?",
+        "options": ["멘델레예프", "돌턴", "아보가드로", "라부아지에"],
+        "correct_answer": "멘델레예프",
+        "explanation": "드미트리 멘델레예프가 주기율표를 만들었습니다."
+      },
+      {
+        "id": "science_024",
+        "question": "인슐린을 발견한 과학자는?",
+        "options": ["밴팅", "플레밍", "파스퇴르", "코흐"],
+        "correct_answer": "밴팅",
+        "explanation": "프레더릭 밴팅이 인슐린을 발견했습니다."
+      },
+      {
+        "id": "science_025",
+        "question": "RNA의 염기가 아닌 것은?",
+        "options": ["아데닌", "구아닌", "티민", "우라실"],
+        "correct_answer": "티민",
+        "explanation": "RNA에는 티민 대신 우라실이 있습니다."
+      },
+      {
+        "id": "science_026",
+        "question": "지구의 층상 구조에서 가장 두꺼운 층은?",
+        "options": ["지각", "맨틀", "외핵", "내핵"],
+        "correct_answer": "맨틀",
+        "explanation": "맨틀이 지구에서 가장 두꺼운 층입니다."
+      },
+      {
+        "id": "science_027",
+        "question": "백신을 처음 개발한 과학자는?",
+        "options": ["제너", "파스퇴르", "코흐", "플레밍"],
+        "correct_answer": "제너",
+        "explanation": "에드워드 제너가 천연두 백신을 처음 개발했습니다."
+      },
+      {
+        "id": "science_028",
+        "question": "혈액 순환을 발견한 과학자는?",
+        "options": ["하비", "갈렌", "히포크라테스", "파라켈수스"],
+        "correct_answer": "하비",
+        "explanation": "윌리엄 하비가 혈액 순환을 발견했습니다."
+      },
+      {
+        "id": "science_029",
+        "question": "원자핵을 발견한 과학자는?",
+        "options": ["러더포드", "톰슨", "보어", "퀴리"],
+        "correct_answer": "러더포드",
+        "explanation": "어니스트 러더포드가 원자핵을 발견했습니다."
+      },
+      {
+        "id": "science_030",
+        "question": "pH 7은 무엇을 의미하나?",
+        "options": ["산성", "염기성", "중성", "강산성"],
+        "correct_answer": "중성",
+        "explanation": "pH 7은 중성을 의미합니다."
+      },
+      {
+        "id": "science_031",
+        "question": "지구의 대기층 중 가장 아래층은?",
+        "options": ["대류권", "성층권", "중간권", "열권"],
+        "correct_answer": "대류권",
+        "explanation": "대류권이 지구 대기의 가장 아래층입니다."
+      },
+      {
+        "id": "science_032",
+        "question": "X선을 발견한 과학자는?",
+        "options": ["뢴트겐", "퀴리", "베크렐", "러더포드"],
+        "correct_answer": "뢴트겐",
+        "explanation": "빌헬름 뢴트겐이 1895년 X선을 발견했습니다."
+      },
+      {
+        "id": "science_033",
+        "question": "철의 화학 기호는?",
+        "options": ["Fe", "Ir", "In", "Fr"],
+        "correct_answer": "Fe",
+        "explanation": "철의 화학 기호는 Fe(라틴어 ferrum)입니다."
+      },
+      {
+        "id": "science_034",
+        "question": "노벨이 발명한 것은?",
+        "options": ["다이너마이트", "화약", "TNT", "원자폭탄"],
+        "correct_answer": "다이너마이트",
+        "explanation": "알프레드 노벨이 다이너마이트를 발명했습니다."
+      },
+      {
+        "id": "science_035",
+        "question": "세포를 처음 발견한 과학자는?",
+        "options": ["훅", "레벤후크", "슐라이덴", "슈반"],
+        "correct_answer": "훅",
+        "explanation": "로버트 훅이 1665년 현미경으로 세포를 처음 관찰했습니다."
+      },
+      {
+        "id": "science_036",
+        "question": "유전자 DNA 구조에서 아데닌과 짝을 이루는 염기는?",
+        "options": ["구아닌", "시토신", "티민", "우라실"],
+        "correct_answer": "티민",
+        "explanation": "DNA에서 아데닌은 티민과 수소결합을 합니다."
+      },
+      {
+        "id": "science_037",
+        "question": "지구의 공전궤도가 완전한 원이 아닌 이유는?",
+        "options": ["타원궤도", "원형궤도", "포물선궤도", "직선궤도"],
+        "correct_answer": "타원궤도",
+        "explanation": "지구의 공전궤도는 타원형입니다."
+      },
+      {
+        "id": "science_038",
+        "question": "라듐을 발견한 과학자는?",
+        "options": ["퀴리 부부", "러더포드", "톰슨", "보어"],
+        "correct_answer": "퀴리 부부",
+        "explanation": "마리 퀴리와 피에르 퀴리가 라듐을 발견했습니다."
+      },
+      {
+        "id": "science_039",
+        "question": "현미경을 발명한 과학자는?",
+        "options": ["레벤후크", "갈릴레이", "뉴턴", "케플러"],
+        "correct_answer": "레벤후크",
+        "explanation": "안톤 반 레벤후크가 현미경을 발명했습니다."
+      },
+      {
+        "id": "science_040",
+        "question": "뉴턴의 운동 법칙은 몇 개인가?",
+        "options": ["2개", "3개", "4개", "5개"],
+        "correct_answer": "3개",
+        "explanation": "뉴턴의 운동 법칙은 3개입니다."
+      },
+      {
+        "id": "science_041",
+        "question": "아르키메데스의 원리와 관련된 현상은?",
+        "options": ["부력", "중력", "마찰력", "전기력"],
+        "correct_answer": "부력",
+        "explanation": "아르키메데스의 원리는 부력에 관한 법칙입니다."
+      },
+      {
+        "id": "science_042",
+        "question": "혈액형 O형의 특징은?",
+        "options": ["항원 없음", "A항원", "B항원", "AB항원"],
+        "correct_answer": "항원 없음",
+        "explanation": "O형은 A, B 항원이 모두 없는 혈액형입니다."
+      },
+      {
+        "id": "science_043",
+        "question": "지구에서 가장 풍부한 기체는?",
+        "options": ["산소", "질소", "아르곤", "이산화탄소"],
+        "correct_answer": "질소",
+        "explanation": "지구 대기의 78%는 질소입니다."
+      },
+      {
+        "id": "science_044",
+        "question": "전기를 발견한 과학자는?",
+        "options": ["프랭클린", "패러데이", "암페어", "볼타"],
+        "correct_answer": "프랭클린",
+        "explanation": "벤자민 프랭클린이 번개 실험으로 전기를 증명했습니다."
+      },
+      {
+        "id": "science_045",
+        "question": "화학에서 '몰'의 개념을 도입한 과학자는?",
+        "options": ["아보가드로", "돌턴", "보일", "샤를"],
+        "correct_answer": "아보가드로",
+        "explanation": "아메데오 아보가드로가 몰의 개념을 도입했습니다."
+      },
+      {
+        "id": "science_046",
+        "question": "펜실린의 구조를 밝힌 과학자는?",
+        "options": ["호지킨", "플레밍", "체인", "플로리"],
+        "correct_answer": "호지킨",
+        "explanation": "도로시 호지킨이 X선 결정학으로 펜실린 구조를 밝혔습니다."
+      },
+      {
+        "id": "science_047",
+        "question": "혈액의 pH는 약?",
+        "options": ["6.4", "7.4", "8.4", "9.4"],
+        "correct_answer": "7.4",
+        "explanation": "인간 혈액의 pH는 약 7.4로 약염기성입니다."
+      },
+      {
+        "id": "science_048",
+        "question": "갈릴레이가 발견한 목성의 위성 개수는?",
+        "options": ["2개", "3개", "4개", "5개"],
+        "correct_answer": "4개",
+        "explanation": "갈릴레이가 목성의 4개 위성(갈릴레이 위성)을 발견했습니다."
+      },
+      {
+        "id": "science_049",
+        "question": "탄소의 동소체가 아닌 것은?",
+        "options": ["다이아몬드", "흑연", "풀러렌", "규소"],
+        "correct_answer": "규소",
+        "explanation": "규소는 탄소의 동소체가 아닙니다."
+      },
+      {
+        "id": "science_050",
+        "question": "인간의 염색체 개수는?",
+        "options": ["44개", "46개", "48개", "50개"],
+        "correct_answer": "46개",
+        "explanation": "인간은 46개의 염색체를 가지고 있습니다."
+      }
+    ],
+    "시사": [
+      {
+        "id": "current_001",
+        "question": "현재 대한민국의 대통령 임기는?",
+        "options": ["4년", "5년", "6년", "7년"],
+        "correct_answer": "5년",
+        "explanation": "대한민국 대통령의 임기는 5년 단임제입니다."
+      },
+      {
+        "id": "current_002",
+        "question": "2024년 파리 올림픽에서 한국이 획득한 금메달 수는?",
+        "options": ["10개", "13개", "15개", "18개"],
+        "correct_answer": "13개",
+        "explanation": "2024년 파리 올림픽에서 한국은 13개의 금메달을 획득했습니다."
+      },
+      {
+        "id": "current_003",
+        "question": "UN의 본부가 있는 도시는?",
+        "options": ["제네바", "뉴욕", "파리", "런던"],
+        "correct_answer": "뉴욕",
+        "explanation": "유엔(UN) 본부는 미국 뉴욕에 위치해 있습니다."
+      },
+      {
+        "id": "current_004",
+        "question": "현재 세계에서 가장 많이 사용되는 SNS는?",
+        "options": ["인스타그램", "페이스북", "틱톡", "트위터"],
+        "correct_answer": "페이스북",
+        "explanation": "페이스북은 전 세계적으로 가장 많은 사용자를 보유한 SNS입니다."
+      },
+      {
+        "id": "current_005",
+        "question": "ChatGPT를 개발한 회사는?",
+        "options": ["구글", "메타", "OpenAI", "마이크로소프트"],
+        "correct_answer": "OpenAI",
+        "explanation": "ChatGPT는 OpenAI에서 개발한 대화형 AI 모델입니다."
+      },
+      {
+        "id": "current_006",
+        "question": "2024년 대한민국 인구는 약?",
+        "options": ["4천만명", "5천만명", "6천만명", "7천만명"],
+        "correct_answer": "5천만명",
+        "explanation": "2024년 현재 대한민국의 인구는 약 5천만명입니다."
+      },
+      {
+        "id": "current_007",
+        "question": "현재 세계에서 가장 많이 사용되는 검색엔진은?",
+        "options": ["구글", "네이버", "빙", "야후"],
+        "correct_answer": "구글",
+        "explanation": "구글은 전 세계에서 가장 많이 사용되는 검색엔진입니다."
+      },
+      {
+        "id": "current_008",
+        "question": "메타버스의 대표적인 플랫폼은?",
+        "options": ["로블록스", "마인크래프트", "제페토", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "로블록스, 마인크래프트, 제페토 등이 모두 메타버스 플랫폼입니다."
+      },
+      {
+        "id": "current_009",
+        "question": "현재 가장 인기 있는 전기차 브랜드는?",
+        "options": ["테슬라", "현대", "BMW", "벤츠"],
+        "correct_answer": "테슬라",
+        "explanation": "테슬라는 현재 전 세계에서 가장 인기 있는 전기차 브랜드입니다."
+      },
+      {
+        "id": "current_010",
+        "question": "코로나19가 처음 발견된 연도는?",
+        "options": ["2018년", "2019년", "2020년", "2021년"],
+        "correct_answer": "2019년",
+        "explanation": "코로나19는 2019년 12월 중국 우한에서 처음 발견되었습니다."
+      },
+      {
+        "id": "current_011",
+        "question": "2024년 현재 세계 최고의 부자는?",
+        "options": ["일론 머스크", "제프 베조스", "빌 게이츠", "워렌 버핏"],
+        "correct_answer": "일론 머스크",
+        "explanation": "2024년 현재 일론 머스크가 세계 최고 부자로 알려져 있습니다."
+      },
+      {
+        "id": "current_012",
+        "question": "메타버스 열풍을 이끈 페이스북의 새 이름은?",
+        "options": ["메타", "알파", "베타", "감마"],
+        "correct_answer": "메타",
+        "explanation": "페이스북이 2021년 회사명을 메타로 변경했습니다."
+      },
+      {
+        "id": "current_013",
+        "question": "2024년 미국 대선에서 공화당 후보는?",
+        "options": ["트럼프", "바이든", "해리스", "펜스"],
+        "correct_answer": "트럼프",
+        "explanation": "도널드 트럼프가 2024년 공화당 대선 후보입니다."
+      },
+      {
+        "id": "current_014",
+        "question": "현재 가장 인기 있는 동영상 플랫폼은?",
+        "options": ["유튜브", "틱톡", "인스타그램", "트위치"],
+        "correct_answer": "유튜브",
+        "explanation": "유튜브가 전 세계적으로 가장 큰 동영상 플랫폼입니다."
+      },
+      {
+        "id": "current_015",
+        "question": "비트코인을 만든 사람의 가명은?",
+        "options": ["사토시 나카모토", "할 피니", "닉 사보", "도리안 나카모토"],
+        "correct_answer": "사토시 나카모토",
+        "explanation": "비트코인 창시자의 가명은 사토시 나카모토입니다."
+      },
+      {
+        "id": "current_016",
+        "question": "2024년 K-POP의 대표적인 그룹은?",
+        "options": ["BTS", "블랙핑크", "뉴진스", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "BTS, 블랙핑크, 뉴진스 등이 모두 세계적으로 인기입니다."
+      },
+      {
+        "id": "current_017",
+        "question": "우크라이나 전쟁이 시작된 연도는?",
+        "options": ["2021년", "2022년", "2023년", "2024년"],
+        "correct_answer": "2022년",
+        "explanation": "러시아가 2022년 2월 우크라이나를 침공했습니다."
+      },
+      {
+        "id": "current_018",
+        "question": "현재 세계에서 가장 많이 사용되는 메신저는?",
+        "options": ["왓츠앱", "위챗", "텔레그램", "카카오톡"],
+        "correct_answer": "왓츠앱",
+        "explanation": "왓츠앱이 전 세계적으로 가장 많이 사용되는 메신저입니다."
+      },
+      {
+        "id": "current_019",
+        "question": "넷플릭스의 가장 인기 있는 한국 드라마는?",
+        "options": ["오징어 게임", "킹덤", "사랑의 불시착", "이상한 변호사 우영우"],
+        "correct_answer": "오징어 게임",
+        "explanation": "오징어 게임이 넷플릭스에서 가장 성공한 한국 콘텐츠입니다."
+      },
+      {
+        "id": "current_020",
+        "question": "2024년 올림픽 개최지는?",
+        "options": ["도쿄", "파리", "로스앤젤레스", "브리즈번"],
+        "correct_answer": "파리",
+        "explanation": "2024년 하계 올림픽이 파리에서 개최됩니다."
+      },
+      {
+        "id": "current_021",
+        "question": "현재 전 세계 인구는 약?",
+        "options": ["70억명", "75억명", "80억명", "85억명"],
+        "correct_answer": "80억명",
+        "explanation": "2024년 현재 전 세계 인구는 약 80억명입니다."
+      },
+      {
+        "id": "current_022",
+        "question": "지구온난화의 주요 원인 기체는?",
+        "options": ["산소", "질소", "이산화탄소", "수소"],
+        "correct_answer": "이산화탄소",
+        "explanation": "이산화탄소가 지구온난화의 주요 온실가스입니다."
+      },
+      {
+        "id": "current_023",
+        "question": "2024년 현재 세계 최대 경제대국은?",
+        "options": ["미국", "중국", "일본", "독일"],
+        "correct_answer": "미국",
+        "explanation": "미국이 세계 최대 경제대국입니다."
+      },
+      {
+        "id": "current_024",
+        "question": "인공지능 ChatGPT의 개발사 CEO는?",
+        "options": ["샘 알트만", "일론 머스크", "선다르 피차이", "마크 저커버그"],
+        "correct_answer": "샘 알트만",
+        "explanation": "샘 알트만이 OpenAI의 CEO입니다."
+      },
+      {
+        "id": "current_025",
+        "question": "2024년 현재 가장 인기 있는 단편 동영상 플랫폼은?",
+        "options": ["틱톡", "인스타그램 릴스", "유튜브 쇼츠", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "틱톡, 인스타그램 릴스, 유튜브 쇼츠 모두 인기입니다."
+      },
+      {
+        "id": "current_026",
+        "question": "현재 한국의 최저임금은 시간당?",
+        "options": ["9000원", "9500원", "9620원", "10000원"],
+        "correct_answer": "9620원",
+        "explanation": "2024년 한국의 최저임금은 시간당 9,620원입니다."
+      },
+      {
+        "id": "current_027",
+        "question": "세계 최대 온라인 쇼핑몰은?",
+        "options": ["아마존", "알리바바", "이베이", "쿠팡"],
+        "correct_answer": "아마존",
+        "explanation": "아마존이 세계 최대 온라인 쇼핑몰입니다."
+      },
+      {
+        "id": "current_028",
+        "question": "2024년 현재 세계에서 가장 빠른 자동차는?",
+        "options": ["부가티", "맥라렌", "코닉세그", "헤네시"],
+        "correct_answer": "코닉세그",
+        "explanation": "코닉세그 제스코 앱솔뤼트가 최고속도 기록을 보유하고 있습니다."
+      },
+      {
+        "id": "current_029",
+        "question": "현재 한국의 출산율은 약?",
+        "options": ["0.7", "0.8", "0.9", "1.0"],
+        "correct_answer": "0.8",
+        "explanation": "2023년 한국의 출산율은 약 0.8명입니다."
+      },
+      {
+        "id": "current_030",
+        "question": "2024년 현재 세계에서 가장 비싼 회사는?",
+        "options": ["애플", "마이크로소프트", "구글", "아마존"],
+        "correct_answer": "애플",
+        "explanation": "애플이 시가총액 기준 세계에서 가장 비싼 회사입니다."
+      },
+      {
+        "id": "current_031",
+        "question": "현재 전 세계 스마트폰 1위 브랜드는?",
+        "options": ["삼성", "애플", "샤오미", "화웨이"],
+        "correct_answer": "삼성",
+        "explanation": "삼성이 전 세계 스마트폰 시장 점유율 1위입니다."
+      },
+      {
+        "id": "current_032",
+        "question": "2024년 노벨평화상 수상자는?",
+        "options": ["일본 피폭자 단체", "우크라이나 대통령", "WHO", "유엔"],
+        "correct_answer": "일본 피폭자 단체",
+        "explanation": "2024년 노벨평화상은 일본 원폭 피해자 단체가 수상했습니다."
+      },
+      {
+        "id": "current_033",
+        "question": "현재 한국의 경제성장률은 약?",
+        "options": ["1%", "2%", "3%", "4%"],
+        "correct_answer": "3%",
+        "explanation": "2024년 한국의 경제성장률은 약 3% 수준입니다."
+      },
+      {
+        "id": "current_034",
+        "question": "세계에서 가장 많이 팔린 게임은?",
+        "options": ["마인크래프트", "테트리스", "GTA 5", "포트나이트"],
+        "correct_answer": "마인크래프트",
+        "explanation": "마인크래프트가 3억 부 이상 팔린 최다 판매 게임입니다."
+      },
+      {
+        "id": "current_035",
+        "question": "2024년 현재 한국의 국가부채는 약?",
+        "options": ["800조원", "900조원", "1000조원", "1100조원"],
+        "correct_answer": "1000조원",
+        "explanation": "2024년 한국의 국가부채는 약 1000조원 수준입니다."
+      },
+      {
+        "id": "current_036",
+        "question": "현재 세계에서 가장 높은 빌딩은?",
+        "options": ["부르즈 칼리파", "상하이 타워", "롯데월드타워", "원월드트레이드센터"],
+        "correct_answer": "부르즈 칼리파",
+        "explanation": "두바이의 부르즈 칼리파가 세계에서 가장 높은 빌딩입니다."
+      },
+      {
+        "id": "current_037",
+        "question": "2024년 현재 가장 인기 있는 온라인 게임은?",
+        "options": ["리그 오브 레전드", "배틀그라운드", "로블록스", "포트나이트"],
+        "correct_answer": "로블록스",
+        "explanation": "로블록스가 월 활성 사용자 수 기준으로 가장 인기입니다."
+      },
+      {
+        "id": "current_038",
+        "question": "현재 세계에서 가장 많이 사용되는 운영체제는?",
+        "options": ["윈도우", "맥OS", "리눅스", "안드로이드"],
+        "correct_answer": "안드로이드",
+        "explanation": "모바일을 포함하면 안드로이드가 가장 많이 사용됩니다."
+      },
+      {
+        "id": "current_039",
+        "question": "2024년 현재 한국의 평균 수명은?",
+        "options": ["81세", "83세", "85세", "87세"],
+        "correct_answer": "83세",
+        "explanation": "2024년 한국의 평균 수명은 약 83세입니다."
+      },
+      {
+        "id": "current_040",
+        "question": "현재 전 세계에서 가장 많이 재배되는 곡물은?",
+        "options": ["쌀", "밀", "옥수수", "보리"],
+        "correct_answer": "옥수수",
+        "explanation": "옥수수가 전 세계에서 가장 많이 재배되는 곡물입니다."
+      },
+      {
+        "id": "current_041",
+        "question": "2024년 한국의 대학진학률은 약?",
+        "options": ["60%", "70%", "80%", "90%"],
+        "correct_answer": "70%",
+        "explanation": "2024년 한국의 대학진학률은 약 70%입니다."
+      },
+      {
+        "id": "current_042",
+        "question": "현재 세계에서 가장 많이 사용되는 에너지원은?",
+        "options": ["석유", "석탄", "천연가스", "재생에너지"],
+        "correct_answer": "석유",
+        "explanation": "석유가 전 세계에서 가장 많이 사용되는 에너지원입니다."
+      },
+      {
+        "id": "current_043",
+        "question": "2024년 현재 세계 최대 투자회사는?",
+        "options": ["블랙록", "뱅가드", "스테이트 스트리트", "피델리티"],
+        "correct_answer": "블랙록",
+        "explanation": "블랙록이 운용자산 기준 세계 최대 투자회사입니다."
+      },
+      {
+        "id": "current_044",
+        "question": "현재 한국에서 가장 많이 사용되는 결제 앱은?",
+        "options": ["카카오페이", "네이버페이", "토스", "페이코"],
+        "correct_answer": "카카오페이",
+        "explanation": "카카오페이가 한국에서 가장 많이 사용되는 간편결제 서비스입니다."
+      },
+      {
+        "id": "current_045",
+        "question": "2024년 현재 세계에서 가장 가치 있는 브랜드는?",
+        "options": ["애플", "구글", "아마존", "마이크로소프트"],
+        "correct_answer": "애플",
+        "explanation": "애플이 브랜드 가치 평가에서 1위를 차지하고 있습니다."
+      },
+      {
+        "id": "current_046",
+        "question": "현재 전 세계 인터넷 사용자는 약?",
+        "options": ["40억명", "50억명", "60억명", "70억명"],
+        "correct_answer": "50억명",
+        "explanation": "2024년 현재 전 세계 인터넷 사용자는 약 50억명입니다."
+      },
+      {
+        "id": "current_047",
+        "question": "2024년 현재 한국의 1인당 GDP는 약?",
+        "options": ["3만달러", "3만5천달러", "4만달러", "4만5천달러"],
+        "correct_answer": "3만5천달러",
+        "explanation": "2024년 한국의 1인당 GDP는 약 3만5천달러입니다."
+      },
+      {
+        "id": "current_048",
+        "question": "현재 세계에서 가장 많이 팔린 전기차는?",
+        "options": ["테슬라 모델 Y", "테슬라 모델 3", "BYD 송", "폭스바겐 ID.4"],
+        "correct_answer": "테슬라 모델 Y",
+        "explanation": "테슬라 모델 Y가 2024년 가장 많이 팔린 전기차입니다."
+      },
+      {
+        "id": "current_049",
+        "question": "2024년 현재 한국의 청년실업률은 약?",
+        "options": ["5%", "7%", "9%", "11%"],
+        "correct_answer": "7%",
+        "explanation": "2024년 한국의 청년실업률은 약 7% 수준입니다."
+      },
+      {
+        "id": "current_050",
+        "question": "현재 세계에서 가장 많이 방문되는 웹사이트는?",
+        "options": ["구글", "유튜브", "페이스북", "아마존"],
+        "correct_answer": "구글",
+        "explanation": "구글이 전 세계에서 가장 많이 방문되는 웹사이트입니다."
+      }
+    ],
+    "영화": [
+      {
+        "id": "movie_001",
+        "question": "봉준호 감독의 아카데미상 작품상 수상작은?",
+        "options": ["기생충", "옥자", "괴물", "설국열차"],
+        "correct_answer": "기생충",
+        "explanation": "기생충은 2020년 아카데미상에서 작품상을 포함해 4개 부문을 수상했습니다."
+      },
+      {
+        "id": "movie_002",
+        "question": "마블 시네마틱 유니버스의 첫 번째 영화는?",
+        "options": ["토르", "아이언맨", "헐크", "캡틴 아메리카"],
+        "correct_answer": "아이언맨",
+        "explanation": "아이언맨(2008)이 마블 시네마틱 유니버스의 시작을 알린 첫 번째 영화입니다."
+      },
+      {
+        "id": "movie_003",
+        "question": "타이타닉의 감독은?",
+        "options": ["스티븐 스필버그", "제임스 카메론", "크리스토퍼 놀란", "마틴 스코세이지"],
+        "correct_answer": "제임스 카메론",
+        "explanation": "타이타닉은 제임스 카메론이 감독한 1997년 작품입니다."
+      },
+      {
+        "id": "movie_004",
+        "question": "해리포터 시리즈의 주인공을 연기한 배우는?",
+        "options": ["톰 홀랜드", "다니엘 래드클리프", "루퍼트 그린트", "톰 펠튼"],
+        "correct_answer": "다니엘 래드클리프",
+        "explanation": "다니엘 래드클리프가 해리포터 역을 맡아 연기했습니다."
+      },
+      {
+        "id": "movie_005",
+        "question": "극한직업의 주인공들이 운영한 가게는?",
+        "options": ["치킨집", "피자집", "햄버거집", "분식집"],
+        "correct_answer": "치킨집",
+        "explanation": "극한직업에서 마약수사대원들이 잠복수사를 위해 치킨집을 운영합니다."
+      },
+      {
+        "id": "movie_006",
+        "question": "인터스텔라의 감독은?",
+        "options": ["크리스토퍼 놀란", "데니스 빌뇌브", "리들리 스콧", "제임스 카메론"],
+        "correct_answer": "크리스토퍼 놀란",
+        "explanation": "인터스텔라는 크리스토퍼 놀란이 감독한 2014년 SF 영화입니다."
+      },
+      {
+        "id": "movie_007",
+        "question": "어벤져스: 엔드게임에서 아이언맨을 연기한 배우는?",
+        "options": ["로버트 다우니 주니어", "크리스 에반스", "크리스 헴스워스", "마크 러팔로"],
+        "correct_answer": "로버트 다우니 주니어",
+        "explanation": "로버트 다우니 주니어가 토니 스타크/아이언맨 역을 연기했습니다."
+      },
+      {
+        "id": "movie_008",
+        "question": "겨울왕국에서 엘사의 동생 이름은?",
+        "options": ["안나", "라푼젤", "벨", "신데렐라"],
+        "correct_answer": "안나",
+        "explanation": "겨울왕국에서 엘사의 동생은 안나입니다."
+      },
+      {
+        "id": "movie_009",
+        "question": "신과함께 시리즈의 원작은?",
+        "options": ["소설", "웹툰", "만화", "게임"],
+        "correct_answer": "웹툰",
+        "explanation": "신과함께는 주호민 작가의 네이버 웹툰이 원작입니다."
+      },
+      {
+        "id": "movie_010",
+        "question": "토이 스토리의 제작사는?",
+        "options": ["디즈니", "픽사", "드림웍스", "유니버설"],
+        "correct_answer": "픽사",
+        "explanation": "토이 스토리는 픽사 애니메이션 스튜디오에서 제작한 작품입니다."
+      },
+      {
+        "id": "movie_011",
+        "question": "라라랜드의 감독은?",
+        "options": ["데미안 셔젤", "크리스토퍼 놀란", "쿠엔틴 타란티노", "마틴 스코세이지"],
+        "correct_answer": "데미안 셔젤",
+        "explanation": "라라랜드는 데미안 셔젤이 감독한 뮤지컬 영화입니다."
+      },
+      {
+        "id": "movie_012",
+        "question": "알라딘에서 지니의 목소리를 맡은 배우는?",
+        "options": ["로빈 윌리엄스", "윌 스미스", "에디 머피", "짐 캐리"],
+        "correct_answer": "로빈 윌리엄스",
+        "explanation": "1992년 애니메이션 알라딘에서 로빈 윌리엄스가 지니 목소리를 맡았습니다."
+      },
+      {
+        "id": "movie_013",
+        "question": "쥬라기 공원의 감독은?",
+        "options": ["스티븐 스필버그", "조지 루카스", "제임스 카메론", "리들리 스콧"],
+        "correct_answer": "스티븐 스필버그",
+        "explanation": "쥬라기 공원은 스티븐 스필버그가 감독했습니다."
+      },
+      {
+        "id": "movie_014",
+        "question": "부산행의 감독은?",
+        "options": ["연상호", "나홍진", "김지운", "박찬욱"],
+        "correct_answer": "연상호",
+        "explanation": "부산행은 연상호 감독의 작품입니다."
+      },
+      {
+        "id": "movie_015",
+        "question": "어벤져스 시리즈의 제작사는?",
+        "options": ["마블", "DC", "워너브라더스", "유니버설"],
+        "correct_answer": "마블",
+        "explanation": "어벤져스는 마블 스튜디오에서 제작했습니다."
+      },
+      {
+        "id": "movie_016",
+        "question": "올드보이의 감독은?",
+        "options": ["박찬욱", "김지운", "봉준호", "나홍진"],
+        "correct_answer": "박찬욱",
+        "explanation": "올드보이는 박찬욱 감독의 복수 3부작 중 하나입니다."
+      },
+      {
+        "id": "movie_017",
+        "question": "스타워즈의 창시자는?",
+        "options": ["조지 루카스", "스티븐 스필버그", "제임스 카메론", "리들리 스콧"],
+        "correct_answer": "조지 루카스",
+        "explanation": "조지 루카스가 스타워즈 시리즈를 창조했습니다."
+      },
+      {
+        "id": "movie_018",
+        "question": "밀양의 주연 배우는?",
+        "options": ["전도연", "윤여정", "김혜자", "고현정"],
+        "correct_answer": "전도연",
+        "explanation": "전도연이 밀양에서 주연을 맡아 칸영화제 여우주연상을 수상했습니다."
+      },
+      {
+        "id": "movie_019",
+        "question": "왕의 남자의 감독은?",
+        "options": ["이준익", "임권택", "김기덕", "홍상수"],
+        "correct_answer": "이준익",
+        "explanation": "왕의 남자는 이준익 감독의 작품입니다."
+      },
+      {
+        "id": "movie_020",
+        "question": "포레스트 검프에서 주인공을 연기한 배우는?",
+        "options": ["톰 행크스", "레오나르도 디카프리오", "브래드 피트", "윌 스미스"],
+        "correct_answer": "톰 행크스",
+        "explanation": "톰 행크스가 포레스트 검프 역을 연기했습니다."
+      },
+      {
+        "id": "movie_021",
+        "question": "살인의 추억의 감독은?",
+        "options": ["봉준호", "박찬욱", "김지운", "나홍진"],
+        "correct_answer": "봉준호",
+        "explanation": "살인의 추억은 봉준호 감독의 초기 대표작입니다."
+      },
+      {
+        "id": "movie_022",
+        "question": "라이온 킹에서 심바의 아버지 이름은?",
+        "options": ["무파사", "스카", "티몬", "품바"],
+        "correct_answer": "무파사",
+        "explanation": "무파사가 심바의 아버지이자 전 라이온 킹입니다."
+      },
+      {
+        "id": "movie_023",
+        "question": "곡성의 감독은?",
+        "options": ["나홍진", "봉준호", "박찬욱", "김지운"],
+        "correct_answer": "나홍진",
+        "explanation": "곡성은 나홍진 감독의 작품입니다."
+      },
+      {
+        "id": "movie_024",
+        "question": "쇼생크 탈출의 주연 배우는?",
+        "options": ["팀 로빈스", "모건 프리먼", "알 파치노", "로버트 드니로"],
+        "correct_answer": "팀 로빈스",
+        "explanation": "팀 로빈스가 쇼생크 탈출에서 앤디 듀프레인 역을 연기했습니다."
+      },
+      {
+        "id": "movie_025",
+        "question": "대부의 감독은?",
+        "options": ["프랜시스 포드 코폴라", "마틴 스코세이지", "우디 앨런", "스티븐 스필버그"],
+        "correct_answer": "프랜시스 포드 코폴라",
+        "explanation": "대부는 프랜시스 포드 코폴라가 감독했습니다."
+      },
+      {
+        "id": "movie_026",
+        "question": "범죄도시의 주연 배우는?",
+        "options": ["마동석", "윤계상", "조진웅", "이성민"],
+        "correct_answer": "마동석",
+        "explanation": "마동석이 범죄도시에서 주연을 맡았습니다."
+      },
+      {
+        "id": "movie_027",
+        "question": "겨울왕국 2에서 엘사가 부르는 대표곡은?",
+        "options": ["Let It Go", "Into the Unknown", "Show Yourself", "The Next Right Thing"],
+        "correct_answer": "Into the Unknown",
+        "explanation": "겨울왕국 2에서 엘사의 대표곡은 'Into the Unknown'입니다."
+      },
+      {
+        "id": "movie_028",
+        "question": "1987의 감독은?",
+        "options": ["장준환", "윤제균", "최동훈", "이창동"],
+        "correct_answer": "장준환",
+        "explanation": "1987은 장준환 감독의 작품입니다."
+      },
+      {
+        "id": "movie_029",
+        "question": "반지의 제왕의 감독은?",
+        "options": ["피터 잭슨", "기예르모 델 토로", "팀 버튼", "크리스토퍼 놀란"],
+        "correct_answer": "피터 잭슨",
+        "explanation": "반지의 제왕 3부작은 피터 잭슨이 감독했습니다."
+      },
+      {
+        "id": "movie_030",
+        "question": "신과함께의 원작자는?",
+        "options": ["주호민", "강풀", "윤태호", "허영만"],
+        "correct_answer": "주호민",
+        "explanation": "신과함께는 주호민 작가의 웹툰이 원작입니다."
+      },
+      {
+        "id": "movie_031",
+        "question": "토르: 라그나로크의 감독은?",
+        "options": ["타이카 와이티티", "안소니 루소", "조 루소", "존 파브로"],
+        "correct_answer": "타이카 와이티티",
+        "explanation": "토르: 라그나로크는 타이카 와이티티가 감독했습니다."
+      },
+      {
+        "id": "movie_032",
+        "question": "모가디슈의 감독은?",
+        "options": ["류승완", "나홍진", "봉준호", "박찬욱"],
+        "correct_answer": "류승완",
+        "explanation": "모가디슈는 류승완 감독의 작품입니다."
+      },
+      {
+        "id": "movie_033",
+        "question": "토이 스토리에서 우디의 성우는?",
+        "options": ["톰 행크스", "팀 앨런", "돈 리클스", "월리스 쇼운"],
+        "correct_answer": "톰 행크스",
+        "explanation": "톰 행크스가 우디의 목소리를 맡았습니다."
+      },
+      {
+        "id": "movie_034",
+        "question": "마이너리티 리포트의 감독은?",
+        "options": ["스티븐 스필버그", "필립 K. 딕", "리들리 스콧", "크리스토퍼 놀란"],
+        "correct_answer": "스티븐 스필버그",
+        "explanation": "마이너리티 리포트는 스티븐 스필버그가 감독했습니다."
+      },
+      {
+        "id": "movie_035",
+        "question": "베테랑의 주연 배우는?",
+        "options": ["황정민", "유아인", "오달수", "장진영"],
+        "correct_answer": "황정민",
+        "explanation": "황정민이 베테랑에서 주연을 맡았습니다."
+      },
+      {
+        "id": "movie_036",
+        "question": "인셉션에서 꿈 속의 꿈을 다루는 개념은?",
+        "options": ["리미보", "킥", "토템", "인셉션"],
+        "correct_answer": "인셉션",
+        "explanation": "인셉션은 꿈 속에 아이디어를 심는 행위를 의미합니다."
+      },
+      {
+        "id": "movie_037",
+        "question": "터미네이터의 감독은?",
+        "options": ["제임스 카메론", "리들리 스콧", "스티븐 스필버그", "조지 루카스"],
+        "correct_answer": "제임스 카메론",
+        "explanation": "터미네이터는 제임스 카메론이 감독했습니다."
+      },
+      {
+        "id": "movie_038",
+        "question": "해운대의 감독은?",
+        "options": ["윤제균", "강제규", "심형래", "봉준호"],
+        "correct_answer": "윤제균",
+        "explanation": "해운대는 윤제균 감독의 작품입니다."
+      },
+      {
+        "id": "movie_039",
+        "question": "캐스트 어웨이에서 주인공과 함께하는 친구는?",
+        "options": ["윌슨", "잭슨", "톰슨", "데이비드"],
+        "correct_answer": "윌슨",
+        "explanation": "캐스트 어웨이에서 주인공의 친구는 배구공 '윌슨'입니다."
+      },
+      {
+        "id": "movie_040",
+        "question": "암살의 감독은?",
+        "options": ["최동훈", "김지운", "박찬욱", "나홍진"],
+        "correct_answer": "최동훈",
+        "explanation": "암살은 최동훈 감독의 작품입니다."
+      },
+      {
+        "id": "movie_041",
+        "question": "니모를 찾아서에서 니모의 아버지 이름은?",
+        "options": ["말린", "브루스", "도리", "거북이"],
+        "correct_answer": "말린",
+        "explanation": "니모의 아버지는 말린(Marlin)입니다."
+      },
+      {
+        "id": "movie_042",
+        "question": "국제시장의 주연 배우는?",
+        "options": ["황정민", "오달수", "김윤진", "장영남"],
+        "correct_answer": "황정민",
+        "explanation": "황정민이 국제시장에서 주연을 맡았습니다."
+      },
+      {
+        "id": "movie_043",
+        "question": "백 투 더 퓨처에서 시간여행에 필요한 속도는?",
+        "options": ["88mph", "100mph", "120mph", "150mph"],
+        "correct_answer": "88mph",
+        "explanation": "델로리안이 시속 88마일에 도달해야 시간여행이 가능합니다."
+      },
+      {
+        "id": "movie_044",
+        "question": "아바타의 감독은?",
+        "options": ["제임스 카메론", "피터 잭슨", "크리스토퍼 놀란", "스티븐 스필버그"],
+        "correct_answer": "제임스 카메론",
+        "explanation": "아바타는 제임스 카메론이 감독했습니다."
+      },
+      {
+        "id": "movie_045",
+        "question": "택시운전사의 주연 배우는?",
+        "options": ["송강호", "토마스 크레치만", "유해진", "류준열"],
+        "correct_answer": "송강호",
+        "explanation": "송강호가 택시운전사에서 주연을 맡았습니다."
+      },
+      {
+        "id": "movie_046",
+        "question": "메트릭스에서 주인공 네오를 연기한 배우는?",
+        "options": ["키아누 리브스", "로렌스 피시번", "휴고 위빙", "캐리 앤 모스"],
+        "correct_answer": "키아누 리브스",
+        "explanation": "키아누 리브스가 메트릭스에서 네오 역을 연기했습니다."
+      },
+      {
+        "id": "movie_047",
+        "question": "명량의 감독은?",
+        "options": ["김한민", "강제규", "윤제균", "류승완"],
+        "correct_answer": "김한민",
+        "explanation": "명량은 김한민 감독의 작품입니다."
+      },
+      {
+        "id": "movie_048",
+        "question": "펄프 픽션의 감독은?",
+        "options": ["쿠엔틴 타란티노", "코엔 형제", "마틴 스코세이지", "우디 앨런"],
+        "correct_answer": "쿠엔틴 타란티노",
+        "explanation": "펄프 픽션은 쿠엔틴 타란티노가 감독했습니다."
+      },
+      {
+        "id": "movie_049",
+        "question": "센과 치히로의 행방불명에서 치히로의 부모가 변한 동물은?",
+        "options": ["돼지", "개", "소", "말"],
+        "correct_answer": "돼지",
+        "explanation": "치히로의 부모는 돼지로 변했습니다."
+      },
+      {
+        "id": "movie_050",
+        "question": "정직한 후보의 주연 배우는?",
+        "options": ["라미란", "김무열", "나문희", "윤경호"],
+        "correct_answer": "라미란",
+        "explanation": "라미란이 정직한 후보에서 주연을 맡았습니다."
+      }
+    ],
+    "드라마": [
+      {
+        "id": "drama_001",
+        "question": "오징어 게임의 감독은?",
+        "options": ["황동혁", "봉준호", "박찬욱", "김지운"],
+        "correct_answer": "황동혁",
+        "explanation": "오징어 게임은 황동혁 감독이 연출한 넷플릭스 오리지널 시리즈입니다."
+      },
+      {
+        "id": "drama_002",
+        "question": "도깨비에서 공유가 연기한 캐릭터는?",
+        "options": ["저승사자", "도깨비", "인간", "신"],
+        "correct_answer": "도깨비",
+        "explanation": "공유는 tvN 드라마 도깨비에서 도깨비(김신) 역을 연기했습니다."
+      },
+      {
+        "id": "drama_003",
+        "question": "태양의 후예 촬영지로 유명한 그리스 섬은?",
+        "options": ["산토리니", "자킨토스", "미코노스", "크레타"],
+        "correct_answer": "자킨토스",
+        "explanation": "태양의 후예는 그리스 자킨토스 섬에서 촬영되었습니다."
+      },
+      {
+        "id": "drama_004",
+        "question": "SKY 캐슬의 배경이 되는 지역은?",
+        "options": ["강남구", "서초구", "송파구", "강서구"],
+        "correct_answer": "강남구",
+        "explanation": "SKY 캐슬은 강남 지역의 고급 주거단지를 배경으로 합니다."
+      },
+      {
+        "id": "drama_005",
+        "question": "이태원 클라쓰의 주인공 박새로이를 연기한 배우는?",
+        "options": ["박서준", "박보검", "이민호", "송중기"],
+        "correct_answer": "박서준",
+        "explanation": "박서준이 이태원 클라쓰에서 박새로이 역을 연기했습니다."
+      },
+      {
+        "id": "drama_006",
+        "question": "킹덤의 배경 시대는?",
+        "options": ["고려", "조선", "일제강점기", "현대"],
+        "correct_answer": "조선",
+        "explanation": "킹덤은 조선시대를 배경으로 한 좀비 스릴러 드라마입니다."
+      },
+      {
+        "id": "drama_007",
+        "question": "펜트하우스의 주요 배경이 되는 곳은?",
+        "options": ["학교", "회사", "아파트", "병원"],
+        "correct_answer": "아파트",
+        "explanation": "펜트하우스는 고급 아파트를 배경으로 한 복수 드라마입니다."
+      },
+      {
+        "id": "drama_008",
+        "question": "사랑의 불시착에서 현빈이 연기한 역할은?",
+        "options": ["재벌", "군인", "의사", "변호사"],
+        "correct_answer": "군인",
+        "explanation": "현빈은 사랑의 불시착에서 북한 장교 리정혁 역을 연기했습니다."
+      },
+      {
+        "id": "drama_009",
+        "question": "이상한 변호사 우영우의 주인공을 연기한 배우는?",
+        "options": ["박은빈", "김고은", "박신혜", "수지"],
+        "correct_answer": "박은빈",
+        "explanation": "박은빈이 드라마 이상한 변호사 우영우에서 주인공 우영우 역을 연기했습니다."
+      },
+      {
+        "id": "drama_010",
+        "question": "스위트홈의 원작은?",
+        "options": ["소설", "웹툰", "만화", "게임"],
+        "correct_answer": "웹툰",
+        "explanation": "스위트홈은 김칸비, 황영찬 작가의 네이버 웹툰이 원작입니다."
+      },
+      {
+        "id": "drama_011",
+        "question": "미스터 션샤인의 배경 시대는?",
+        "options": ["조선 말기", "일제강점기", "한국전쟁", "현대"],
+        "correct_answer": "조선 말기",
+        "explanation": "미스터 션샤인은 구한말을 배경으로 한 드라마입니다."
+      },
+      {
+        "id": "drama_012",
+        "question": "스카이캐슬에서 김주영을 연기한 배우는?",
+        "options": ["김서형", "염정아", "이태란", "윤세아"],
+        "correct_answer": "김서형",
+        "explanation": "김서형이 스카이캐슬에서 김주영 역을 연기했습니다."
+      },
+      {
+        "id": "drama_013",
+        "question": "겨울연가의 주연 배우는?",
+        "options": ["배용준", "최지우", "박용하", "박신양"],
+        "correct_answer": "배용준",
+        "explanation": "배용준과 최지우가 겨울연가의 주연을 맡았습니다."
+      },
+      {
+        "id": "drama_014",
+        "question": "대장금에서 서장금을 연기한 배우는?",
+        "options": ["이영애", "김혜수", "고현정", "전지현"],
+        "correct_answer": "이영애",
+        "explanation": "이영애가 대장금에서 서장금 역을 연기했습니다."
+      },
+      {
+        "id": "drama_015",
+        "question": "시그널의 장르는?",
+        "options": ["로맨스", "코미디", "스릴러", "사극"],
+        "correct_answer": "스릴러",
+        "explanation": "시그널은 시간을 초월한 무전기를 소재로 한 스릴러 드라마입니다."
+      },
+      {
+        "id": "drama_016",
+        "question": "슬기로운 의사생활의 배경은?",
+        "options": ["병원", "학교", "회사", "경찰서"],
+        "correct_answer": "병원",
+        "explanation": "슬기로운 의사생활은 병원을 배경으로 한 의학 드라마입니다."
+      },
+      {
+        "id": "drama_017",
+        "question": "응답하라 1988의 배경 지역은?",
+        "options": ["쌍문동", "도봉구", "강남구", "마포구"],
+        "correct_answer": "쌍문동",
+        "explanation": "응답하라 1988은 쌍문동을 배경으로 합니다."
+      },
+      {
+        "id": "drama_018",
+        "question": "별에서 온 그대에서 외계인을 연기한 배우는?",
+        "options": ["김수현", "전지현", "박해진", "유인나"],
+        "correct_answer": "김수현",
+        "explanation": "김수현이 별에서 온 그대에서 외계인 도민준 역을 연기했습니다."
+      },
+      {
+        "id": "drama_019",
+        "question": "프리즌 브레이크의 주인공 형제는?",
+        "options": ["마이클과 링컨", "잭과 존", "톰과 제리", "빌과 테드"],
+        "correct_answer": "마이클과 링컨",
+        "explanation": "프리즌 브레이크의 주인공은 마이클 스코필드와 링컨 버로스 형제입니다."
+      },
+      {
+        "id": "drama_020",
+        "question": "갓왑의 배경 직업은?",
+        "options": ["IT업계", "의사", "변호사", "교사"],
+        "correct_answer": "IT업계",
+        "explanation": "갓왑은 IT 스타트업을 배경으로 한 드라마입니다."
+      },
+      {
+        "id": "drama_021",
+        "question": "브레이킹 배드의 주인공 직업은?",
+        "options": ["화학교사", "의사", "변호사", "경찰"],
+        "correct_answer": "화학교사",
+        "explanation": "브레이킹 배드의 주인공 월터 화이트는 화학교사입니다."
+      },
+      {
+        "id": "drama_022",
+        "question": "육룡이 나르샤의 배경 시대는?",
+        "options": ["고려 말기", "조선 초기", "임진왜란", "일제강점기"],
+        "correct_answer": "고려 말기",
+        "explanation": "육룡이 나르샤는 고려 말기를 배경으로 합니다."
+      },
+      {
+        "id": "drama_023",
+        "question": "웰컴 투 삼달리의 배경 지역은?",
+        "options": ["제주도", "강원도", "전라도", "경상도"],
+        "correct_answer": "제주도",
+        "explanation": "웰컴 투 삼달리는 제주도를 배경으로 한 드라마입니다."
+      },
+      {
+        "id": "drama_024",
+        "question": "마인의 주요 배경은?",
+        "options": ["재벌가", "병원", "학교", "회사"],
+        "correct_answer": "재벌가",
+        "explanation": "마인은 재벌가의 며느리들을 그린 드라마입니다."
+      },
+      {
+        "id": "drama_025",
+        "question": "이태원 클라쓰에서 박새로이의 아버지를 죽인 사람은?",
+        "options": ["장근원", "장근수", "오수아", "조이서"],
+        "correct_answer": "장근원",
+        "explanation": "장근원이 박새로이 아버지의 죽음에 책임이 있습니다."
+      },
+      {
+        "id": "drama_026",
+        "question": "선덕여왕에서 선덕여왕을 연기한 배우는?",
+        "options": ["이요원", "고현정", "이영애", "김혜수"],
+        "correct_answer": "이요원",
+        "explanation": "이요원이 선덕여왕에서 주연을 맡았습니다."
+      },
+      {
+        "id": "drama_027",
+        "question": "로스트의 배경은?",
+        "options": ["무인도", "우주", "미래", "과거"],
+        "correct_answer": "무인도",
+        "explanation": "로스트는 비행기 추락 후 무인도에 고립된 사람들의 이야기입니다."
+      },
+      {
+        "id": "drama_028",
+        "question": "마이 네임의 주연 배우는?",
+        "options": ["한소희", "박희순", "안보현", "이학주"],
+        "correct_answer": "한소희",
+        "explanation": "한소희가 마이 네임에서 주연을 맡았습니다."
+      },
+      {
+        "id": "drama_029",
+        "question": "김비서가 왜 그럴까의 남주인공을 연기한 배우는?",
+        "options": ["박서준", "박민영", "이태환", "강기영"],
+        "correct_answer": "박서준",
+        "explanation": "박서준이 김비서가 왜 그럴까에서 남주인공을 연기했습니다."
+      },
+      {
+        "id": "drama_030",
+        "question": "허준의 주연 배우는?",
+        "options": ["전광렬", "이순재", "황정민", "송일국"],
+        "correct_answer": "전광렬",
+        "explanation": "전광렬이 허준에서 주연을 맡았습니다."
+      },
+      {
+        "id": "drama_031",
+        "question": "미생의 원작은?",
+        "options": ["웹툰", "소설", "실화", "게임"],
+        "correct_answer": "웹툰",
+        "explanation": "미생은 윤태호 작가의 웹툰이 원작입니다."
+      },
+      {
+        "id": "drama_032",
+        "question": "하우스 오브 카드의 주인공 직업은?",
+        "options": ["정치인", "의사", "변호사", "사업가"],
+        "correct_answer": "정치인",
+        "explanation": "하우스 오브 카드의 주인공은 미국 정치인입니다."
+      },
+      {
+        "id": "drama_033",
+        "question": "기생충의 영향을 받은 봉준호 감독의 드라마는?",
+        "options": ["없음", "괴물", "설국열차", "옥자"],
+        "correct_answer": "없음",
+        "explanation": "봉준호는 주로 영화감독으로 드라마 작품은 없습니다."
+      },
+      {
+        "id": "drama_034",
+        "question": "베터 콜 사울의 주인공은?",
+        "options": ["사울 굿맨", "월터 화이트", "제시 핑크맨", "행크 슈레이더"],
+        "correct_answer": "사울 굿맨",
+        "explanation": "베터 콜 사울의 주인공은 사울 굿맨(지미 맥길)입니다."
+      },
+      {
+        "id": "drama_035",
+        "question": "더 크라운의 배경은?",
+        "options": ["영국 왕실", "미국 백악관", "프랑스 궁전", "독일 성"],
+        "correct_answer": "영국 왕실",
+        "explanation": "더 크라운은 영국 왕실을 배경으로 한 드라마입니다."
+      },
+      {
+        "id": "drama_036",
+        "question": "황후의 품격에서 황후를 연기한 배우는?",
+        "options": ["장나라", "최진혁", "신성록", "이엘리야"],
+        "correct_answer": "장나라",
+        "explanation": "장나라가 황후의 품격에서 황후 역을 연기했습니다."
+      },
+      {
+        "id": "drama_037",
+        "question": "스트레인저의 주인공 직업은?",
+        "options": ["검사", "변호사", "경찰", "의사"],
+        "correct_answer": "검사",
+        "explanation": "스트레인저의 주인공은 검사입니다."
+      },
+      {
+        "id": "drama_038",
+        "question": "나의 아저씨에서 아이유가 연기한 캐릭터는?",
+        "options": ["이지안", "김지은", "박민정", "최수진"],
+        "correct_answer": "이지안",
+        "explanation": "아이유가 나의 아저씨에서 이지안 역을 연기했습니다."
+      },
+      {
+        "id": "drama_039",
+        "question": "스타트업의 배경 업계는?",
+        "options": ["IT", "의료", "법조", "금융"],
+        "correct_answer": "IT",
+        "explanation": "스타트업은 IT 벤처업계를 배경으로 한 드라마입니다."
+      },
+      {
+        "id": "drama_040",
+        "question": "가문의 영광의 주요 소재는?",
+        "options": ["조폭", "재벌", "정치", "스포츠"],
+        "correct_answer": "조폭",
+        "explanation": "가문의 영광은 조폭 가문을 다룬 코미디 드라마입니다."
+      },
+      {
+        "id": "drama_041",
+        "question": "런 온의 주요 배경 스포츠는?",
+        "options": ["육상", "축구", "야구", "농구"],
+        "correct_answer": "육상",
+        "explanation": "런 온은 육상을 배경으로 한 로맨스 드라마입니다."
+      },
+      {
+        "id": "drama_042",
+        "question": "치즈인더트랩의 원작은?",
+        "options": ["웹툰", "소설", "영화", "게임"],
+        "correct_answer": "웹툰",
+        "explanation": "치즈인더트랩은 순끼 작가의 웹툰이 원작입니다."
+      },
+      {
+        "id": "drama_043",
+        "question": "이수현이 두 번 죽는 한계상황에서 한국어 제목은?",
+        "options": ["시그널", "시간", "킬링 이브", "미스터 로봇"],
+        "correct_answer": "시간",
+        "explanation": "시간은 시간 루프를 소재로 한 판타지 드라마입니다."
+      },
+      {
+        "id": "drama_044",
+        "question": "피노키오의 특수한 설정은?",
+        "options": ["거짓말 증후군", "기억상실", "시간여행", "투명인간"],
+        "correct_answer": "거짓말 증후군",
+        "explanation": "피노키오에서는 거짓말을 하면 딸꾹질하는 증후군이 등장합니다."
+      },
+      {
+        "id": "drama_045",
+        "question": "호텔 델루나의 배경은?",
+        "options": ["귀신 호텔", "일반 호텔", "병원", "학교"],
+        "correct_answer": "귀신 호텔",
+        "explanation": "호텔 델루나는 죽은 혼들을 위한 호텔을 배경으로 합니다."
+      },
+      {
+        "id": "drama_046",
+        "question": "빅마우스에서 이종석이 연기한 직업은?",
+        "options": ["변호사", "의사", "검사", "기자"],
+        "correct_answer": "변호사",
+        "explanation": "이종석이 빅마우스에서 변호사 역을 연기했습니다."
+      },
+      {
+        "id": "drama_047",
+        "question": "업무상 약자의 주요 배경은?",
+        "options": ["법무법인", "병원", "학교", "회사"],
+        "correct_answer": "법무법인",
+        "explanation": "업무상 약자는 법무법인을 배경으로 한 법정 드라마입니다."
+      },
+      {
+        "id": "drama_048",
+        "question": "더 글로리의 주제는?",
+        "options": ["복수", "로맨스", "성장", "우정"],
+        "correct_answer": "복수",
+        "explanation": "더 글로리는 학교폭력 피해자의 복수를 다룬 드라마입니다."
+      },
+      {
+        "id": "drama_049",
+        "question": "어쩌다 발견한 하루의 특수 설정은?",
+        "options": ["만화 속 세계", "시간여행", "평행우주", "꿈 속 세계"],
+        "correct_answer": "만화 속 세계",
+        "explanation": "어쩌다 발견한 하루는 만화 속 세계를 배경으로 합니다."
+      },
+      {
+        "id": "drama_050",
+        "question": "더 킹 : 영원의 군주의 주요 소재는?",
+        "options": ["평행우주", "시간여행", "외계인", "마법"],
+        "correct_answer": "평행우주",
+        "explanation": "더 킹 : 영원의 군주는 평행우주를 오가는 이야기입니다."
+      }
+    ],
+    "게임": [
+      {
+        "id": "game_001",
+        "question": "리그 오브 레전드를 개발한 회사는?",
+        "options": ["블리자드", "라이엇 게임즈", "밸브", "에픽게임즈"],
+        "correct_answer": "라이엇 게임즈",
+        "explanation": "리그 오브 레전드는 라이엇 게임즈에서 개발한 MOBA 게임입니다."
+      },
+      {
+        "id": "game_002",
+        "question": "닌텐도의 대표 캐릭터는?",
+        "options": ["소닉", "마리오", "링크", "피카츄"],
+        "correct_answer": "마리오",
+        "explanation": "마리오는 닌텐도의 대표적인 마스코트 캐릭터입니다."
+      },
+      {
+        "id": "game_003",
+        "question": "배틀그라운드의 개발사는?",
+        "options": ["넥슨", "펍지", "크래프톤", "엔씨소프트"],
+        "correct_answer": "크래프톤",
+        "explanation": "배틀그라운드는 크래프톤(구 블루홀)에서 개발했습니다."
+      },
+      {
+        "id": "game_004",
+        "question": "마인크래프트를 개발한 사람은?",
+        "options": ["노치", "마커스", "스티브", "알렉스"],
+        "correct_answer": "노치",
+        "explanation": "마인크래프트는 노치(Notch, 마르쿠스 페르손)가 개발했습니다."
+      },
+      {
+        "id": "game_005",
+        "question": "포켓몬스터의 첫 번째 작품은?",
+        "options": ["적/녹", "금/은", "루비/사파이어", "다이아몬드/펄"],
+        "correct_answer": "적/녹",
+        "explanation": "포켓몬스터 적/녹 버전이 1996년에 출시된 첫 번째 작품입니다."
+      },
+      {
+        "id": "game_006",
+        "question": "스타크래프트를 개발한 회사는?",
+        "options": ["블리자드", "라이엇", "밸브", "EA"],
+        "correct_answer": "블리자드",
+        "explanation": "스타크래프트는 블리자드 엔터테인먼트에서 개발한 RTS 게임입니다."
+      },
+      {
+        "id": "game_007",
+        "question": "오버워치의 장르는?",
+        "options": ["MOBA", "FPS", "RPG", "RTS"],
+        "correct_answer": "FPS",
+        "explanation": "오버워치는 1인칭 슈팅(FPS) 게임입니다."
+      },
+      {
+        "id": "game_008",
+        "question": "젤다의 전설 시리즈의 주인공은?",
+        "options": ["젤다", "링크", "가논", "임파"],
+        "correct_answer": "링크",
+        "explanation": "젤다의 전설 시리즈의 주인공은 링크입니다."
+      },
+      {
+        "id": "game_009",
+        "question": "테트리스가 처음 만들어진 나라는?",
+        "options": ["미국", "일본", "러시아", "한국"],
+        "correct_answer": "러시아",
+        "explanation": "테트리스는 1984년 소련의 알렉세이 파지노프가 개발했습니다."
+      },
+      {
+        "id": "game_010",
+        "question": "카운터 스트라이크의 개발사는?",
+        "options": ["밸브", "블리자드", "라이엇", "EA"],
+        "correct_answer": "밸브",
+        "explanation": "카운터 스트라이크는 밸브 코퍼레이션에서 개발했습니다."
+      },
+      {
+        "id": "game_011",
+        "question": "포트나이트의 개발사는?",
+        "options": ["에픽게임즈", "블리자드", "라이엇", "밸브"],
+        "correct_answer": "에픽게임즈",
+        "explanation": "포트나이트는 에픽게임즈에서 개발한 배틀로얄 게임입니다."
+      },
+      {
+        "id": "game_012",
+        "question": "월드 오브 워크래프트의 개발사는?",
+        "options": ["블리자드", "라이엇", "밸브", "EA"],
+        "correct_answer": "블리자드",
+        "explanation": "월드 오브 워크래프트는 블리자드 엔터테인먼트의 MMORPG입니다."
+      },
+      {
+        "id": "game_013",
+        "question": "GTA 시리즈의 개발사는?",
+        "options": ["락스타 게임즈", "EA", "액티비전", "유비소프트"],
+        "correct_answer": "락스타 게임즈",
+        "explanation": "GTA 시리즈는 락스타 게임즈에서 개발했습니다."
+      },
+      {
+        "id": "game_014",
+        "question": "어쌔신 크리드 시리즈의 개발사는?",
+        "options": ["유비소프트", "EA", "액티비전", "베데스다"],
+        "correct_answer": "유비소프트",
+        "explanation": "어쌔신 크리드는 유비소프트의 대표 시리즈입니다."
+      },
+      {
+        "id": "game_015",
+        "question": "엘더스크롤 시리즈의 개발사는?",
+        "options": ["베데스다", "바이오웨어", "CD 프로젝트", "옵시디언"],
+        "correct_answer": "베데스다",
+        "explanation": "엘더스크롤 시리즈는 베데스다 게임 스튜디오에서 개발했습니다."
+      },
+      {
+        "id": "game_016",
+        "question": "FIFA 시리즈의 개발사는?",
+        "options": ["EA", "코나미", "2K", "액티비전"],
+        "correct_answer": "EA",
+        "explanation": "FIFA는 EA 스포츠에서 개발하는 축구 게임입니다."
+      },
+      {
+        "id": "game_017",
+        "question": "콜 오브 듀티 시리즈의 개발사는?",
+        "options": ["액티비전", "EA", "유비소프트", "베데스다"],
+        "correct_answer": "액티비전",
+        "explanation": "콜 오브 듀티는 액티비전에서 발행하는 FPS 게임입니다."
+      },
+      {
+        "id": "game_018",
+        "question": "하프라이프 시리즈의 개발사는?",
+        "options": ["밸브", "id 소프트웨어", "에픽게임즈", "크라이텍"],
+        "correct_answer": "밸브",
+        "explanation": "하프라이프는 밸브 코퍼레이션의 대표작입니다."
+      },
+      {
+        "id": "game_019",
+        "question": "심즈 시리즈의 개발사는?",
+        "options": ["EA", "액티비전", "유비소프트", "2K"],
+        "correct_answer": "EA",
+        "explanation": "심즈는 EA에서 개발한 생활 시뮬레이션 게임입니다."
+      },
+      {
+        "id": "game_020",
+        "question": "디아블로 시리즈의 개발사는?",
+        "options": ["블리자드", "밸브", "라이엇", "에픽게임즈"],
+        "correct_answer": "블리자드",
+        "explanation": "디아블로는 블리자드 엔터테인먼트의 액션 RPG 시리즈입니다."
+      },
+      {
+        "id": "game_021",
+        "question": "롤의 챔피언 중 '정의의 수호자'는?",
+        "options": ["가렌", "데마시아", "럭스", "쟈르반 4세"],
+        "correct_answer": "가렌",
+        "explanation": "가렌은 데마시아의 정의의 수호자로 불립니다."
+      },
+      {
+        "id": "game_022",
+        "question": "마리오 카트의 개발사는?",
+        "options": ["닌텐도", "세가", "소니", "마이크로소프트"],
+        "correct_answer": "닌텐도",
+        "explanation": "마리오 카트는 닌텐도의 레이싱 게임 시리즈입니다."
+      },
+      {
+        "id": "game_023",
+        "question": "스트리트 파이터 시리즈의 개발사는?",
+        "options": ["캡콤", "SNK", "반다이남코", "아크시스템웍스"],
+        "correct_answer": "캡콤",
+        "explanation": "스트리트 파이터는 캡콤의 대표적인 격투 게임입니다."
+      },
+      {
+        "id": "game_024",
+        "question": "몬스터 헌터 시리즈의 개발사는?",
+        "options": ["캡콤", "코나미", "스퀘어 에닉스", "반다이남코"],
+        "correct_answer": "캡콤",
+        "explanation": "몬스터 헌터는 캡콤에서 개발한 액션 게임입니다."
+      },
+      {
+        "id": "game_025",
+        "question": "파이널 판타지 시리즈의 개발사는?",
+        "options": ["스퀘어 에닉스", "캡콤", "코나미", "세가"],
+        "correct_answer": "스퀘어 에닉스",
+        "explanation": "파이널 판타지는 스퀘어 에닉스의 대표 RPG 시리즈입니다."
+      },
+      {
+        "id": "game_026",
+        "question": "메탈 기어 시리즈의 개발사는?",
+        "options": ["코나미", "캡콤", "세가", "스퀘어 에닉스"],
+        "correct_answer": "코나미",
+        "explanation": "메탈 기어는 코나미에서 개발한 스텔스 액션 게임입니다."
+      },
+      {
+        "id": "game_027",
+        "question": "소닉 시리즈의 개발사는?",
+        "options": ["세가", "닌텐도", "소니", "캡콤"],
+        "correct_answer": "세가",
+        "explanation": "소닉은 세가의 마스코트 캐릭터이자 게임 시리즈입니다."
+      },
+      {
+        "id": "game_028",
+        "question": "레지던트 이블 시리즈의 개발사는?",
+        "options": ["캡콤", "코나미", "스퀘어 에닉스", "세가"],
+        "correct_answer": "캡콤",
+        "explanation": "레지던트 이블은 캡콤의 서바이벌 호러 게임입니다."
+      },
+      {
+        "id": "game_029",
+        "question": "와처 시리즈의 개발사는?",
+        "options": ["CD 프로젝트", "바이오웨어", "베데스다", "옵시디언"],
+        "correct_answer": "CD 프로젝트",
+        "explanation": "와처 시리즈는 CD 프로젝트 레드에서 개발했습니다."
+      },
+      {
+        "id": "game_030",
+        "question": "사이버펑크 2077의 개발사는?",
+        "options": ["CD 프로젝트", "바이오웨어", "베데스다", "유비소프트"],
+        "correct_answer": "CD 프로젝트",
+        "explanation": "사이버펑크 2077은 CD 프로젝트 레드에서 개발했습니다."
+      },
+      {
+        "id": "game_031",
+        "question": "로켓리그의 장르는?",
+        "options": ["스포츠", "FPS", "RPG", "RTS"],
+        "correct_answer": "스포츠",
+        "explanation": "로켓리그는 자동차 축구 게임입니다."
+      },
+      {
+        "id": "game_032",
+        "question": "둠 시리즈의 개발사는?",
+        "options": ["id 소프트웨어", "밸브", "에픽게임즈", "크라이텍"],
+        "correct_answer": "id 소프트웨어",
+        "explanation": "둠은 id 소프트웨어에서 개발한 FPS 게임입니다."
+      },
+      {
+        "id": "game_033",
+        "question": "리그 오브 레전드에서 'ADC'는 무엇의 약자인가?",
+        "options": ["Attack Damage Carry", "All Damage Control", "Advance Damage Core", "Active Damage Counter"],
+        "correct_answer": "Attack Damage Carry",
+        "explanation": "ADC는 Attack Damage Carry의 약자입니다."
+      },
+      {
+        "id": "game_034",
+        "question": "스타크래프트 2의 종족이 아닌 것은?",
+        "options": ["테란", "프로토스", "저그", "엘프"],
+        "correct_answer": "엘프",
+        "explanation": "스타크래프트 2의 종족은 테란, 프로토스, 저그입니다."
+      },
+      {
+        "id": "game_035",
+        "question": "앵그리버드의 개발사는?",
+        "options": ["로비오", "킹", "슈퍼셀", "게임로프트"],
+        "correct_answer": "로비오",
+        "explanation": "앵그리버드는 핀란드의 로비오에서 개발했습니다."
+      },
+      {
+        "id": "game_036",
+        "question": "캔디 크러쉬 사가의 개발사는?",
+        "options": ["킹", "로비오", "슈퍼셀", "게임로프트"],
+        "correct_answer": "킹",
+        "explanation": "캔디 크러쉬 사가는 킹에서 개발한 퍼즐 게임입니다."
+      },
+      {
+        "id": "game_037",
+        "question": "클래시 오브 클랜의 개발사는?",
+        "options": ["슈퍼셀", "킹", "로비오", "게임로프트"],
+        "correct_answer": "슈퍼셀",
+        "explanation": "클래시 오브 클랜은 슈퍼셀에서 개발한 전략 게임입니다."
+      },
+      {
+        "id": "game_038",
+        "question": "어몽 어스의 개발사는?",
+        "options": ["InnerSloth", "Fall Guys", "Team17", "Devolver"],
+        "correct_answer": "InnerSloth",
+        "explanation": "어몽 어스는 InnerSloth에서 개발했습니다."
+      },
+      {
+        "id": "game_039",
+        "question": "폴 가이즈의 개발사는?",
+        "options": ["Mediatonic", "InnerSloth", "Team17", "Devolver"],
+        "correct_answer": "Mediatonic",
+        "explanation": "폴 가이즈는 Mediatonic에서 개발했습니다."
+      },
+      {
+        "id": "game_040",
+        "question": "발로란트의 개발사는?",
+        "options": ["라이엇 게임즈", "블리자드", "밸브", "에픽게임즈"],
+        "correct_answer": "라이엇 게임즈",
+        "explanation": "발로란트는 라이엇 게임즈에서 개발한 FPS 게임입니다."
+      },
+      {
+        "id": "game_041",
+        "question": "하스스톤의 개발사는?",
+        "options": ["블리자드", "라이엇", "밸브", "에픽게임즈"],
+        "correct_answer": "블리자드",
+        "explanation": "하스스톤은 블리자드 엔터테인먼트의 카드 게임입니다."
+      },
+      {
+        "id": "game_042",
+        "question": "팩맨의 개발사는?",
+        "options": ["남코", "캡콤", "코나미", "타이토"],
+        "correct_answer": "남코",
+        "explanation": "팩맨은 남코(현 반다이남코)에서 개발했습니다."
+      },
+      {
+        "id": "game_043",
+        "question": "드래곤퀘스트 시리즈의 개발사는?",
+        "options": ["스퀘어 에닉스", "캡콤", "코나미", "세가"],
+        "correct_answer": "스퀘어 에닉스",
+        "explanation": "드래곤퀘스트는 스퀘어 에닉스의 대표 RPG 시리즈입니다."
+      },
+      {
+        "id": "game_044",
+        "question": "레드 데드 리뎀션의 개발사는?",
+        "options": ["락스타 게임즈", "EA", "액티비전", "유비소프트"],
+        "correct_answer": "락스타 게임즈",
+        "explanation": "레드 데드 리뎀션은 락스타 게임즈에서 개발했습니다."
+      },
+      {
+        "id": "game_045",
+        "question": "히어로즈 오브 더 스톰의 개발사는?",
+        "options": ["블리자드", "라이엇", "밸브", "에픽게임즈"],
+        "correct_answer": "블리자드",
+        "explanation": "히어로즈 오브 더 스톰은 블리자드의 MOBA 게임입니다."
+      },
+      {
+        "id": "game_046",
+        "question": "데드 바이 데이라이트의 장르는?",
+        "options": ["서바이벌 호러", "FPS", "RPG", "전략"],
+        "correct_answer": "서바이벌 호러",
+        "explanation": "데드 바이 데이라이트는 비대칭 서바이벌 호러 게임입니다."
+      },
+      {
+        "id": "game_047",
+        "question": "에이펙스 레전드의 개발사는?",
+        "options": ["리스폰 엔터테인먼트", "EA", "액티비전", "에픽게임즈"],
+        "correct_answer": "리스폰 엔터테인먼트",
+        "explanation": "에이펙스 레전드는 리스폰 엔터테인먼트에서 개발했습니다."
+      },
+      {
+        "id": "game_048",
+        "question": "오버워치에서 'DPS'는 무엇의 약자인가?",
+        "options": ["Damage Per Second", "Defense Per Shield", "Damage Point System", "Direct Point Strike"],
+        "correct_answer": "Damage Per Second",
+        "explanation": "DPS는 Damage Per Second의 약자입니다."
+      },
+      {
+        "id": "game_049",
+        "question": "젤다의 전설 시리즈에서 링크의 말 이름은?",
+        "options": ["에포나", "로아치", "아고", "토렌트"],
+        "correct_answer": "에포나",
+        "explanation": "링크의 말 이름은 에포나입니다."
+      },
+      {
+        "id": "game_050",
+        "question": "마인크래프트에서 가장 단단한 블록은?",
+        "options": ["베드락", "다이아몬드", "흑요석", "네더라이트"],
+        "correct_answer": "베드락",
+        "explanation": "베드락(기반암)이 마인크래프트에서 가장 단단한 블록입니다."
+      }
+    ],
+    "웹툰": [
+      {
+        "id": "webtoon_001",
+        "question": "신의 탑의 작가는?",
+        "options": ["SIU", "하일권", "윤인완", "양경일"],
+        "correct_answer": "SIU",
+        "explanation": "신의 탑은 SIU 작가가 연재하는 네이버 웹툰입니다."
+      },
+      {
+        "id": "webtoon_002",
+        "question": "나 혼자만 레벨업의 주인공 이름은?",
+        "options": ["성진우", "이진우", "김진우", "박진우"],
+        "correct_answer": "성진우",
+        "explanation": "나 혼자만 레벨업의 주인공은 성진우입니다."
+      },
+      {
+        "id": "webtoon_003",
+        "question": "외모지상주의의 주인공이 갖게 된 능력은?",
+        "options": ["투명화", "몸바꾸기", "시간정지", "순간이동"],
+        "correct_answer": "몸바꾸기",
+        "explanation": "외모지상주의의 주인공은 잠들면 다른 몸으로 바뀌는 능력을 갖습니다."
+      },
+      {
+        "id": "webtoon_004",
+        "question": "연애혁명의 배경이 되는 학교는?",
+        "options": ["아라고등학교", "바다고등학교", "하늘고등학교", "별고등학교"],
+        "correct_answer": "아라고등학교",
+        "explanation": "연애혁명은 아라고등학교를 배경으로 한 로맨스 웹툰입니다."
+      },
+      {
+        "id": "webtoon_005",
+        "question": "언덕 위의 제임스의 작가는?",
+        "options": ["하일권", "윤인완", "최규석", "강풀"],
+        "correct_answer": "하일권",
+        "explanation": "언덕 위의 제임스는 하일권 작가의 작품입니다."
+      },
+      {
+        "id": "webtoon_006",
+        "question": "덴마의 작가는?",
+        "options": ["양영순", "이종범", "한중열", "김성모"],
+        "correct_answer": "양영순",
+        "explanation": "덴마는 양영순 작가가 연재하는 SF 액션 웹툰입니다."
+      },
+      {
+        "id": "webtoon_007",
+        "question": "갓 오브 하이스쿨의 주인공은?",
+        "options": ["진모리", "유미라", "한대위", "박일표"],
+        "correct_answer": "진모리",
+        "explanation": "갓 오브 하이스쿨의 주인공은 진모리입니다."
+      },
+      {
+        "id": "webtoon_008",
+        "question": "노블레스의 주인공은?",
+        "options": ["프랑켄슈타인", "라이제", "카디스", "M-21"],
+        "correct_answer": "카디스",
+        "explanation": "노블레스의 주인공은 카디스 에트라마 디 라이제르입니다."
+      },
+      {
+        "id": "webtoon_009",
+        "question": "마음의소리의 작가는?",
+        "options": ["조석", "이말년", "김수박", "네이버웹툰"],
+        "correct_answer": "조석",
+        "explanation": "마음의소리는 조석 작가의 대표작입니다."
+      },
+      {
+        "id": "webtoon_010",
+        "question": "이태원 클라쓰의 원작 웹툰 제목은?",
+        "options": ["이태원 클라쓰", "장가의 신", "금요웹툰", "낮에 뜨는 달"],
+        "correct_answer": "이태원 클라쓰",
+        "explanation": "이태원 클라쓰는 조광진 작가의 웹툰이 원작입니다."
+      },
+      {
+        "id": "webtoon_011",
+        "question": "여신강림의 작가는?",
+        "options": ["야옹이", "순끼", "하일권", "강풀"],
+        "correct_answer": "야옹이",
+        "explanation": "여신강림은 야옹이 작가의 웹툰입니다."
+      },
+      {
+        "id": "webtoon_012",
+        "question": "어쩐지 좋은 일이 생길 것 같은 저녁의 작가는?",
+        "options": ["kang full", "강풀", "윤태호", "조석"],
+        "correct_answer": "강풀",
+        "explanation": "강풀 작가의 대표작 중 하나입니다."
+      },
+      {
+        "id": "webtoon_013",
+        "question": "미생의 작가는?",
+        "options": ["윤태호", "강풀", "조석", "하일권"],
+        "correct_answer": "윤태호",
+        "explanation": "미생은 윤태호 작가의 대표작입니다."
+      },
+      {
+        "id": "webtoon_014",
+        "question": "언덕 위의 제임스에서 제임스의 정체는?",
+        "options": ["개", "고양이", "토끼", "햄스터"],
+        "correct_answer": "개",
+        "explanation": "제임스는 개 캐릭터입니다."
+      },
+      {
+        "id": "webtoon_015",
+        "question": "치즈인더트랩의 작가는?",
+        "options": ["순끼", "야옹이", "강풀", "윤태호"],
+        "correct_answer": "순끼",
+        "explanation": "치즈인더트랩은 순끼 작가의 웹툰입니다."
+      },
+      {
+        "id": "webtoon_016",
+        "question": "닥터 스톤의 원작 국가는?",
+        "options": ["일본", "한국", "미국", "프랑스"],
+        "correct_answer": "일본",
+        "explanation": "닥터 스톤은 일본의 만화 작품입니다."
+      },
+      {
+        "id": "webtoon_017",
+        "question": "참교육의 작가는?",
+        "options": ["채용택", "강풀", "윤태호", "조석"],
+        "correct_answer": "채용택",
+        "explanation": "참교육은 채용택 작가의 웹툰입니다."
+      },
+      {
+        "id": "webtoon_018",
+        "question": "기기괴괴의 작가는?",
+        "options": ["오성대", "강풀", "윤태호", "조석"],
+        "correct_answer": "오성대",
+        "explanation": "기기괴괴는 오성대 작가의 호러 웹툰입니다."
+      },
+      {
+        "id": "webtoon_019",
+        "question": "유미의 세포들의 작가는?",
+        "options": ["이동건", "강풀", "야옹이", "순끼"],
+        "correct_answer": "이동건",
+        "explanation": "유미의 세포들은 이동건 작가의 웹툰입니다."
+      },
+      {
+        "id": "webtoon_020",
+        "question": "프리드로우의 주요 소재는?",
+        "options": ["농구", "축구", "야구", "배구"],
+        "correct_answer": "농구",
+        "explanation": "프리드로우는 농구를 소재로 한 스포츠 웹툰입니다."
+      },
+      {
+        "id": "webtoon_021",
+        "question": "하이브의 작가는?",
+        "options": ["김규삼", "강풀", "윤태호", "조석"],
+        "correct_answer": "김규삼",
+        "explanation": "하이브는 김규삼 작가의 SF 웹툰입니다."
+      },
+      {
+        "id": "webtoon_022",
+        "question": "호랑이형님의 작가는?",
+        "options": ["이상규", "강풀", "조석", "하일권"],
+        "correct_answer": "이상규",
+        "explanation": "호랑이형님은 이상규 작가의 웹툰입니다."
+      },
+      {
+        "id": "webtoon_023",
+        "question": "바이러스의 작가는?",
+        "options": ["김원호", "강풀", "윤태호", "조석"],
+        "correct_answer": "김원호",
+        "explanation": "바이러스는 김원호 작가의 SF 웹툰입니다."
+      },
+      {
+        "id": "webtoon_024",
+        "question": "이말년시리즈의 작가는?",
+        "options": ["이말년", "조석", "강풀", "윤태호"],
+        "correct_answer": "이말년",
+        "explanation": "이말년시리즈는 이말년 작가의 개그 웹툰입니다."
+      },
+      {
+        "id": "webtoon_025",
+        "question": "윈드브레이커의 주요 소재는?",
+        "options": ["사이클", "농구", "축구", "야구"],
+        "correct_answer": "사이클",
+        "explanation": "윈드브레이커는 사이클을 소재로 한 스포츠 웹툰입니다."
+      },
+      {
+        "id": "webtoon_026",
+        "question": "열혈강호의 작가는?",
+        "options": ["전극진", "윤인완", "양경일", "강풀"],
+        "correct_answer": "전극진",
+        "explanation": "열혈강호는 전극진 작가의 무협 웹툰입니다."
+      },
+      {
+        "id": "webtoon_027",
+        "question": "트레이스의 작가는?",
+        "options": ["고영훈", "김규삼", "강풀", "윤태호"],
+        "correct_answer": "고영훈",
+        "explanation": "트레이스는 고영훈 작가의 액션 웹툰입니다."
+      },
+      {
+        "id": "webtoon_028",
+        "question": "신과 함께의 작가는?",
+        "options": ["주호민", "강풀", "윤태호", "조석"],
+        "correct_answer": "주호민",
+        "explanation": "신과 함께는 주호민 작가의 판타지 웹툰입니다."
+      },
+      {
+        "id": "webtoon_029",
+        "question": "복학왕의 작가는?",
+        "options": ["기안84", "조석", "강풀", "윤태호"],
+        "correct_answer": "기안84",
+        "explanation": "복학왕은 기안84 작가의 웹툰입니다."
+      },
+      {
+        "id": "webtoon_030",
+        "question": "좀비딸의 작가는?",
+        "options": ["한지형", "오성대", "김규삼", "강풀"],
+        "correct_answer": "한지형",
+        "explanation": "좀비딸은 한지형 작가의 호러 코미디 웹툰입니다."
+      },
+      {
+        "id": "webtoon_031",
+        "question": "여탕보고서의 작가는?",
+        "options": ["김규삼", "오성대", "강풀", "윤태호"],
+        "correct_answer": "김규삼",
+        "explanation": "여탕보고서는 김규삼 작가의 일상 웹툰입니다."
+      },
+      {
+        "id": "webtoon_032",
+        "question": "부활남의 작가는?",
+        "options": ["이현민", "오성대", "김규삼", "강풀"],
+        "correct_answer": "이현민",
+        "explanation": "부활남은 이현민 작가의 액션 웹툰입니다."
+      },
+      {
+        "id": "webtoon_033",
+        "question": "프리스트의 작가는?",
+        "options": ["연상호", "오성대", "김규삼", "강풀"],
+        "correct_answer": "연상호",
+        "explanation": "프리스트는 연상호 작가의 액션 웹툰입니다."
+      },
+      {
+        "id": "webtoon_034",
+        "question": "더 복서의 작가는?",
+        "options": ["JH", "강풀", "윤태호", "조석"],
+        "correct_answer": "JH",
+        "explanation": "더 복서는 JH 작가의 스포츠 웹툰입니다."
+      },
+      {
+        "id": "webtoon_035",
+        "question": "언터처블의 작가는?",
+        "options": ["마시바", "강풀", "윤태호", "조석"],
+        "correct_answer": "마시바",
+        "explanation": "언터처블은 마시바 작가의 로맨스 웹툰입니다."
+      },
+      {
+        "id": "webtoon_036",
+        "question": "네이버 웹툰의 첫 번째 작품은?",
+        "options": ["스노우캣", "강풀", "마음의소리", "이말년시리즈"],
+        "correct_answer": "스노우캣",
+        "explanation": "스노우캣이 네이버 웹툰의 첫 번째 연재작입니다."
+      },
+      {
+        "id": "webtoon_037",
+        "question": "조의 영역의 작가는?",
+        "options": ["윤인완", "양경일", "강풀", "윤태호"],
+        "correct_answer": "윤인완",
+        "explanation": "조의 영역은 윤인완 작가의 액션 웹툰입니다."
+      },
+      {
+        "id": "webtoon_038",
+        "question": "D.P 개의 날의 작가는?",
+        "options": ["김보통", "강풀", "윤태호", "조석"],
+        "correct_answer": "김보통",
+        "explanation": "D.P 개의 날은 김보통 작가의 밀리터리 웹툰입니다."
+      },
+      {
+        "id": "webtoon_039",
+        "question": "피크닉의 작가는?",
+        "options": ["이루리", "강풀", "윤태호", "조석"],
+        "correct_answer": "이루리",
+        "explanation": "피크닉은 이루리 작가의 일상 웹툰입니다."
+      },
+      {
+        "id": "webtoon_040",
+        "question": "빨간 남자의 작가는?",
+        "options": ["임청산", "오성대", "김규삼", "강풀"],
+        "correct_answer": "임청산",
+        "explanation": "빨간 남자는 임청산 작가의 액션 웹툰입니다."
+      },
+      {
+        "id": "webtoon_041",
+        "question": "목욕의 신의 작가는?",
+        "options": ["하일권", "강풀", "윤태호", "조석"],
+        "correct_answer": "하일권",
+        "explanation": "목욕의 신은 하일권 작가의 일상 웹툰입니다."
+      },
+      {
+        "id": "webtoon_042",
+        "question": "계룡선녀전의 작가는?",
+        "options": ["윤인완", "강풀", "윤태호", "조석"],
+        "correct_answer": "윤인완",
+        "explanation": "계룡선녀전은 윤인완 작가의 판타지 웹툰입니다."
+      },
+      {
+        "id": "webtoon_043",
+        "question": "바른연애 길잡이의 작가는?",
+        "options": ["남수", "강풀", "윤태호", "조석"],
+        "correct_answer": "남수",
+        "explanation": "바른연애 길잡이는 남수 작가의 로맨스 웹툰입니다."
+      },
+      {
+        "id": "webtoon_044",
+        "question": "안나라수마나라의 작가는?",
+        "options": ["하일권", "강풀", "윤태호", "조석"],
+        "correct_answer": "하일권",
+        "explanation": "안나라수마나라는 하일권 작가의 판타지 웹툰입니다."
+      },
+      {
+        "id": "webtoon_045",
+        "question": "아귀의 작가는?",
+        "options": ["김이삭", "오성대", "김규삼", "강풀"],
+        "correct_answer": "김이삭",
+        "explanation": "아귀는 김이삭 작가의 호러 웹툰입니다."
+      },
+      {
+        "id": "webtoon_046",
+        "question": "엘프와 용사가 할 수 없는 것의 작가는?",
+        "options": ["기안84", "강풀", "윤태호", "조석"],
+        "correct_answer": "기안84",
+        "explanation": "기안84 작가의 판타지 코미디 웹툰입니다."
+      },
+      {
+        "id": "webtoon_047",
+        "question": "백설공주 이야기의 작가는?",
+        "options": ["네놈", "강풀", "윤태호", "조석"],
+        "correct_answer": "네놈",
+        "explanation": "백설공주 이야기는 네놈 작가의 패러디 웹툰입니다."
+      },
+      {
+        "id": "webtoon_048",
+        "question": "유료웹툰 시대를 연 플랫폼은?",
+        "options": ["레진코믹스", "네이버", "다음", "투믹스"],
+        "correct_answer": "레진코믹스",
+        "explanation": "레진코믹스가 유료웹툰 시대를 열었습니다."
+      },
+      {
+        "id": "webtoon_049",
+        "question": "순정만화의 작가는?",
+        "options": ["강풀", "윤태호", "조석", "하일권"],
+        "correct_answer": "강풀",
+        "explanation": "순정만화는 강풀 작가의 대표작 중 하나입니다."
+      },
+      {
+        "id": "webtoon_050",
+        "question": "그녀의 심청의 작가는?",
+        "options": ["비완", "강풀", "윤태호", "조석"],
+        "correct_answer": "비완",
+        "explanation": "그녀의 심청은 비완 작가의 사극 웹툰입니다."
+      }
+    ],
+    "애니메이션": [
+      {
+        "id": "anime_001",
+        "question": "원피스의 주인공 이름은?",
+        "options": ["루피", "나루토", "고쿠", "이치고"],
+        "correct_answer": "루피",
+        "explanation": "원피스의 주인공은 몽키 D. 루피입니다."
+      },
+      {
+        "id": "anime_002",
+        "question": "센과 치히로의 행방불명의 감독은?",
+        "options": ["미야자키 하야오", "다카하타 이사오", "호소다 마모루", "신카이 마코토"],
+        "correct_answer": "미야자키 하야오",
+        "explanation": "센과 치히로의 행방불명은 미야자키 하야오 감독의 작품입니다."
+      },
+      {
+        "id": "anime_003",
+        "question": "나루토의 마을 이름은?",
+        "options": ["나뭇잎 마을", "구름 마을", "바위 마을", "모래 마을"],
+        "correct_answer": "나뭇잎 마을",
+        "explanation": "나루토는 나뭇잎 마을(코노하가쿠레) 출신입니다."
+      },
+      {
+        "id": "anime_004",
+        "question": "귀멸의 칼날 주인공의 이름은?",
+        "options": ["탄지로", "이노스케", "젠이츠", "기유"],
+        "correct_answer": "탄지로",
+        "explanation": "귀멸의 칼날의 주인공은 카마도 탄지로입니다."
+      },
+      {
+        "id": "anime_005",
+        "question": "진격의 거인의 주인공이 변신하는 거인은?",
+        "options": ["공격 거인", "초대형 거인", "갑옷 거인", "여성형 거인"],
+        "correct_answer": "공격 거인",
+        "explanation": "에렌 예거는 공격 거인으로 변신할 수 있습니다."
+      },
+      {
+        "id": "anime_006",
+        "question": "드래곤볼의 주인공은?",
+        "options": ["고쿠", "베지터", "고한", "피콜로"],
+        "correct_answer": "고쿠",
+        "explanation": "드래곤볼의 주인공은 손오공(카카로트)입니다."
+      },
+      {
+        "id": "anime_007",
+        "question": "포켓몬의 주인공은?",
+        "options": ["지우", "웅이", "한지", "성호"],
+        "correct_answer": "지우",
+        "explanation": "포켓몬 애니메이션의 주인공은 한지우입니다."
+      },
+      {
+        "id": "anime_008",
+        "question": "슬램덩크의 주인공은?",
+        "options": ["강백호", "서태웅", "정대만", "송태섭"],
+        "correct_answer": "강백호",
+        "explanation": "슬램덩크의 주인공은 강백호입니다."
+      },
+      {
+        "id": "anime_009",
+        "question": "토토로의 제작사는?",
+        "options": ["지브리", "토에이", "매드하우스", "본즈"],
+        "correct_answer": "지브리",
+        "explanation": "토토로는 스튜디오 지브리에서 제작한 애니메이션입니다."
+      },
+      {
+        "id": "anime_010",
+        "question": "도라에몽의 고양이 로봇이 무서워하는 것은?",
+        "options": ["개", "쥐", "물", "어둠"],
+        "correct_answer": "쥐",
+        "explanation": "도라에몽은 쥐를 무서워합니다."
+      },
+      {
+        "id": "anime_011",
+        "question": "원펀맨의 주인공 이름은?",
+        "options": ["사이타마", "지노스", "킹", "타츠마키"],
+        "correct_answer": "사이타마",
+        "explanation": "원펀맨의 주인공은 사이타마입니다."
+      },
+      {
+        "id": "anime_012",
+        "question": "하울의 움직이는 성의 제작사는?",
+        "options": ["지브리", "토에이", "매드하우스", "본즈"],
+        "correct_answer": "지브리",
+        "explanation": "하울의 움직이는 성은 스튜디오 지브리 작품입니다."
+      },
+      {
+        "id": "anime_013",
+        "question": "짱구는 못말려의 주인공 가족 성은?",
+        "options": ["노하라", "사토", "타나카", "스즈키"],
+        "correct_answer": "노하라",
+        "explanation": "짱구의 본명은 노하라 신노스케입니다."
+      },
+      {
+        "id": "anime_014",
+        "question": "코난의 실제 정체는?",
+        "options": ["쿠도 신이치", "하이바라 아이", "모리 란", "목사"],
+        "correct_answer": "쿠도 신이치",
+        "explanation": "코난의 실제 정체는 고등학생 탐정 쿠도 신이치입니다."
+      },
+      {
+        "id": "anime_015",
+        "question": "바람계곡의 나우시카의 감독은?",
+        "options": ["미야자키 하야오", "다카하타 이사오", "호소다 마모루", "신카이 마코토"],
+        "correct_answer": "미야자키 하야오",
+        "explanation": "바람계곡의 나우시카는 미야자키 하야오 감독 작품입니다."
+      },
+      {
+        "id": "anime_016",
+        "question": "천공의 성 라퓨타에서 마법의 주문은?",
+        "options": ["발스", "무스카", "시타", "파즈"],
+        "correct_answer": "발스",
+        "explanation": "라퓨타에서 파괴의 주문은 '발스'입니다."
+      },
+      {
+        "id": "anime_017",
+        "question": "데스노트에서 라이토의 라이벌은?",
+        "options": ["L", "니아", "메로", "렘"],
+        "correct_answer": "L",
+        "explanation": "L은 데스노트에서 라이토의 최대 라이벌입니다."
+      },
+      {
+        "id": "anime_018",
+        "question": "카구야 님은 고백받고 싶어의 배경 학교는?",
+        "options": ["슈치인 학원", "토오 학원", "아오바 학원", "시라토리자와"],
+        "correct_answer": "슈치인 학원",
+        "explanation": "카구야 님은 슈치인 학원을 배경으로 합니다."
+      },
+      {
+        "id": "anime_019",
+        "question": "도쿄구울의 주인공은?",
+        "options": ["카네키 켄", "토우카", "리제", "아몬"],
+        "correct_answer": "카네키 켄",
+        "explanation": "도쿄구울의 주인공은 카네키 켄입니다."
+      },
+      {
+        "id": "anime_020",
+        "question": "공각기동대의 주인공은?",
+        "options": ["쿠사나기 모토코", "바토", "토구사", "이시카와"],
+        "correct_answer": "쿠사나기 모토코",
+        "explanation": "공각기동대의 주인공은 쿠사나기 모토코 소령입니다."
+      },
+      {
+        "id": "anime_021",
+        "question": "아키라의 배경 도시는?",
+        "options": ["네오 도쿄", "뉴욕", "로스앤젤레스", "런던"],
+        "correct_answer": "네오 도쿄",
+        "explanation": "아키라는 네오 도쿄를 배경으로 합니다."
+      },
+      {
+        "id": "anime_022",
+        "question": "바이올렛 에버가든의 주인공 직업은?",
+        "options": ["대필업자", "군인", "메이드", "교사"],
+        "correct_answer": "대필업자",
+        "explanation": "바이올렛은 자동수기인형(대필업자)으로 일합니다."
+      },
+      {
+        "id": "anime_023",
+        "question": "너의 이름은의 감독은?",
+        "options": ["신카이 마코토", "미야자키 하야오", "호소다 마모루", "다카하타 이사오"],
+        "correct_answer": "신카이 마코토",
+        "explanation": "너의 이름은은 신카이 마코토 감독의 작품입니다."
+      },
+      {
+        "id": "anime_024",
+        "question": "에반게리온의 주인공은?",
+        "options": ["이카리 신지", "아야나미 레이", "아스카", "겐도"],
+        "correct_answer": "이카리 신지",
+        "explanation": "에반게리온의 주인공은 이카리 신지입니다."
+      },
+      {
+        "id": "anime_025",
+        "question": "카우보이 비밥의 주인공은?",
+        "options": ["스파이크", "제트", "페이", "에드"],
+        "correct_answer": "스파이크",
+        "explanation": "카우보이 비밥의 주인공은 스파이크 스피겔입니다."
+      },
+      {
+        "id": "anime_026",
+        "question": "몬스터의 주인공 의사 이름은?",
+        "options": ["텐마", "요한", "니나", "룽게"],
+        "correct_answer": "텐마",
+        "explanation": "몬스터의 주인공은 텐마 의사입니다."
+      },
+      {
+        "id": "anime_027",
+        "question": "플래닛 위드의 장르는?",
+        "options": ["로봇", "일상", "연애", "스포츠"],
+        "correct_answer": "로봇",
+        "explanation": "플래닛 위드는 로봇 액션 애니메이션입니다."
+      },
+      {
+        "id": "anime_028",
+        "question": "사무라이 챔플루의 배경 시대는?",
+        "options": ["에도 시대", "메이지 시대", "헤이안 시대", "가마쿠라 시대"],
+        "correct_answer": "에도 시대",
+        "explanation": "사무라이 챔플루는 에도 시대를 배경으로 합니다."
+      },
+      {
+        "id": "anime_029",
+        "question": "하이큐!!의 주인공이 다니는 학교는?",
+        "options": ["카라스노", "아오바죠사이", "시라토리자와", "네코마"],
+        "correct_answer": "카라스노",
+        "explanation": "하이큐!!의 주인공 히나타는 카라스노 고등학교에 다닙니다."
+      },
+      {
+        "id": "anime_030",
+        "question": "나루토에서 아홉 꼬리 여우의 이름은?",
+        "options": ["구라마", "샤카쿠", "마타타비", "손고쿠"],
+        "correct_answer": "구라마",
+        "explanation": "나루토 안의 아홉 꼬리 여우는 구라마입니다."
+      },
+      {
+        "id": "anime_031",
+        "question": "강철의 연금술사에서 주인공 형제의 성은?",
+        "options": ["엘릭", "휴즈", "머스탱", "아임스트롱"],
+        "correct_answer": "엘릭",
+        "explanation": "에드워드와 알폰스는 엘릭 형제입니다."
+      },
+      {
+        "id": "anime_032",
+        "question": "이누야샤의 주인공 시대는?",
+        "options": ["전국시대", "에도시대", "헤이안시대", "가마쿠라시대"],
+        "correct_answer": "전국시대",
+        "explanation": "이누야샤는 전국시대를 배경으로 합니다."
+      },
+      {
+        "id": "anime_033",
+        "question": "기동전사 건담의 주인공은?",
+        "options": ["아무로", "샤아", "세일라", "카이"],
+        "correct_answer": "아무로",
+        "explanation": "기동전사 건담의 주인공은 아무로 레이입니다."
+      },
+      {
+        "id": "anime_034",
+        "question": "러브라이브!의 그룹 이름은?",
+        "options": ["μ's", "아쿠아", "니지가사키", "리엘라"],
+        "correct_answer": "μ's",
+        "explanation": "초대 러브라이브!의 그룹명은 μ's(뮤즈)입니다."
+      },
+      {
+        "id": "anime_035",
+        "question": "스즈미야 하루히의 우울에서 하루히의 특수능력은?",
+        "options": ["현실조작", "시간여행", "염력", "투시"],
+        "correct_answer": "현실조작",
+        "explanation": "하루히는 무의식적으로 현실을 조작하는 능력이 있습니다."
+      },
+      {
+        "id": "anime_036",
+        "question": "Re:제로부터 시작하는 이세계 생활의 주인공은?",
+        "options": ["나츠키 스바루", "에밀리아", "렘", "람"],
+        "correct_answer": "나츠키 스바루",
+        "explanation": "Re:제로의 주인공은 나츠키 스바루입니다."
+      },
+      {
+        "id": "anime_037",
+        "question": "오버로드의 주인공은?",
+        "options": ["아인즈", "알베도", "샬티어", "데미우르고스"],
+        "correct_answer": "아인즈",
+        "explanation": "오버로드의 주인공은 아인즈 울 고운입니다."
+      },
+      {
+        "id": "anime_038",
+        "question": "시원찮은 그녀를 위한 육성방법의 주인공은?",
+        "options": ["토모야", "메구미", "에리리", "우타하"],
+        "correct_answer": "토모야",
+        "explanation": "시원찮은 그녀를 위한 육성방법의 주인공은 아키 토모야입니다."
+      },
+      {
+        "id": "anime_039",
+        "question": "토라도라!의 주인공은?",
+        "options": ["류지", "타이가", "미노린", "아미"],
+        "correct_answer": "류지",
+        "explanation": "토라도라!의 주인공은 타카스 류지입니다."
+      },
+      {
+        "id": "anime_040",
+        "question": "케이온!의 밴드 이름은?",
+        "options": ["방과후 티타임", "케이온부", "경음부", "Light Music Club"],
+        "correct_answer": "방과후 티타임",
+        "explanation": "케이온!의 밴드명은 '방과후 티타임'입니다."
+      },
+      {
+        "id": "anime_041",
+        "question": "블리치에서 이치고의 능력은?",
+        "options": ["사신", "퀸시", "호로우", "풀브링"],
+        "correct_answer": "사신",
+        "explanation": "이치고는 사신 대행으로 활동합니다."
+      },
+      {
+        "id": "anime_042",
+        "question": "헌터X헌터에서 곤의 아버지는?",
+        "options": ["진", "키르아", "쿠라피카", "레오리오"],
+        "correct_answer": "진",
+        "explanation": "곤의 아버지는 진 프릭스입니다."
+      },
+      {
+        "id": "anime_043",
+        "question": "원피스에서 루피의 능력은?",
+        "options": ["고무고무 열매", "번개번개 열매", "불불 열매", "얼음얼음 열매"],
+        "correct_answer": "고무고무 열매",
+        "explanation": "루피는 고무고무 열매를 먹은 고무인간입니다."
+      },
+      {
+        "id": "anime_044",
+        "question": "유유백서의 주인공은?",
+        "options": ["우라메시 유스케", "쿠와바라", "히에이", "쿠라마"],
+        "correct_answer": "우라메시 유스케",
+        "explanation": "유유백서의 주인공은 우라메시 유스케입니다."
+      },
+      {
+        "id": "anime_045",
+        "question": "드래곤볼에서 손오공의 사이어인 이름은?",
+        "options": ["카카로트", "베지터", "라디츠", "나파"],
+        "correct_answer": "카카로트",
+        "explanation": "손오공의 사이어인 본명은 카카로트입니다."
+      },
+      {
+        "id": "anime_046",
+        "question": "세일러 문의 주인공 본명은?",
+        "options": ["츠키노 우사기", "미즈노 아미", "히노 레이", "키노 마코토"],
+        "correct_answer": "츠키노 우사기",
+        "explanation": "세일러 문의 본명은 츠키노 우사기입니다."
+      },
+      {
+        "id": "anime_047",
+        "question": "루팡 3세에서 루팡의 조상은?",
+        "options": ["아르센 루팡", "루팡 1세", "루팡 2세", "모리아티"],
+        "correct_answer": "아르센 루팡",
+        "explanation": "루팡 3세는 괴도 아르센 루팡의 후손입니다."
+      },
+      {
+        "id": "anime_048",
+        "question": "북두의 권에서 켄시로의 대사는?",
+        "options": ["너는 이미 죽어있다", "정의는 승리한다", "나는 강하다", "싸워라"],
+        "correct_answer": "너는 이미 죽어있다",
+        "explanation": "켄시로의 유명한 대사는 '너는 이미 죽어있다'입니다."
+      },
+      {
+        "id": "anime_049",
+        "question": "시티헌터의 주인공은?",
+        "options": ["사에바 료", "마키무라", "가에바", "우미보즈"],
+        "correct_answer": "사에바 료",
+        "explanation": "시티헌터의 주인공은 사에바 료입니다."
+      },
+      {
+        "id": "anime_050",
+        "question": "신비한 바다의 나디아의 제작사는?",
+        "options": ["가이낙스", "지브리", "토에이", "매드하우스"],
+        "correct_answer": "가이낙스",
+        "explanation": "신비한 바다의 나디아는 가이낙스에서 제작했습니다."
+      }
+    ],
+    "수도": [
+      {
+        "id": "capital_001",
+        "question": "일본의 수도는?",
+        "options": ["오사카", "교토", "도쿄", "요코하마"],
+        "correct_answer": "도쿄",
+        "explanation": "일본의 수도는 도쿄입니다."
+      },
+      {
+        "id": "capital_002",
+        "question": "프랑스의 수도는?",
+        "options": ["리옹", "파리", "마르세유", "니스"],
+        "correct_answer": "파리",
+        "explanation": "프랑스의 수도는 파리입니다."
+      },
+      {
+        "id": "capital_003",
+        "question": "호주의 수도는?",
+        "options": ["시드니", "멜버른", "캔버라", "브리즈번"],
+        "correct_answer": "캔버라",
+        "explanation": "호주의 수도는 캔버라입니다."
+      },
+      {
+        "id": "capital_004",
+        "question": "브라질의 수도는?",
+        "options": ["상파울루", "리우데자네이루", "브라질리아", "살바도르"],
+        "correct_answer": "브라질리아",
+        "explanation": "브라질의 수도는 브라질리아입니다."
+      },
+      {
+        "id": "capital_005",
+        "question": "캐나다의 수도는?",
+        "options": ["토론토", "밴쿠버", "오타와", "몬트리올"],
+        "correct_answer": "오타와",
+        "explanation": "캐나다의 수도는 오타와입니다."
+      },
+      {
+        "id": "capital_006",
+        "question": "독일의 수도는?",
+        "options": ["함부르크", "뮌헨", "베를린", "쾰른"],
+        "correct_answer": "베를린",
+        "explanation": "독일의 수도는 베를린입니다."
+      },
+      {
+        "id": "capital_007",
+        "question": "이탈리아의 수도는?",
+        "options": ["밀라노", "로마", "나폴리", "베네치아"],
+        "correct_answer": "로마",
+        "explanation": "이탈리아의 수도는 로마입니다."
+      },
+      {
+        "id": "capital_008",
+        "question": "태국의 수도는?",
+        "options": ["방콕", "치앙마이", "푸켓", "파타야"],
+        "correct_answer": "방콕",
+        "explanation": "태국의 수도는 방콕입니다."
+      },
+      {
+        "id": "capital_009",
+        "question": "러시아의 수도는?",
+        "options": ["상트페테르부르크", "모스크바", "노보시비르스크", "예카테린부르크"],
+        "correct_answer": "모스크바",
+        "explanation": "러시아의 수도는 모스크바입니다."
+      },
+      {
+        "id": "capital_010",
+        "question": "인도의 수도는?",
+        "options": ["뭄바이", "델리", "콜카타", "첸나이"],
+        "correct_answer": "델리",
+        "explanation": "인도의 수도는 뉴델리입니다."
+      },
+      {
+        "id": "capital_011",
+        "question": "스페인의 수도는?",
+        "options": ["바르셀로나", "마드리드", "세비야", "발렌시아"],
+        "correct_answer": "마드리드",
+        "explanation": "스페인의 수도는 마드리드입니다."
+      },
+      {
+        "id": "capital_012",
+        "question": "네덜란드의 수도는?",
+        "options": ["암스테르담", "헤이그", "로테르담", "위트레흐트"],
+        "correct_answer": "암스테르담",
+        "explanation": "네덜란드의 수도는 암스테르담입니다."
+      },
+      {
+        "id": "capital_013",
+        "question": "스웨덴의 수도는?",
+        "options": ["스톡홀름", "예테보리", "말뫼", "웁살라"],
+        "correct_answer": "스톡홀름",
+        "explanation": "스웨덴의 수도는 스톡홀름입니다."
+      },
+      {
+        "id": "capital_014",
+        "question": "노르웨이의 수도는?",
+        "options": ["오슬로", "베르겐", "트론헤임", "스타방에르"],
+        "correct_answer": "오슬로",
+        "explanation": "노르웨이의 수도는 오슬로입니다."
+      },
+      {
+        "id": "capital_015",
+        "question": "덴마크의 수도는?",
+        "options": ["코펜하겐", "오르후스", "오덴세", "올보르"],
+        "correct_answer": "코펜하겐",
+        "explanation": "덴마크의 수도는 코펜하겐입니다."
+      },
+      {
+        "id": "capital_016",
+        "question": "핀란드의 수도는?",
+        "options": ["헬싱키", "탐페레", "투르쿠", "오울루"],
+        "correct_answer": "헬싱키",
+        "explanation": "핀란드의 수도는 헬싱키입니다."
+      },
+      {
+        "id": "capital_017",
+        "question": "폴란드의 수도는?",
+        "options": ["바르샤바", "크라쿠프", "그단스크", "브로츠와프"],
+        "correct_answer": "바르샤바",
+        "explanation": "폴란드의 수도는 바르샤바입니다."
+      },
+      {
+        "id": "capital_018",
+        "question": "체코의 수도는?",
+        "options": ["프라하", "브르노", "오스트라바", "플젠"],
+        "correct_answer": "프라하",
+        "explanation": "체코의 수도는 프라하입니다."
+      },
+      {
+        "id": "capital_019",
+        "question": "헝가리의 수도는?",
+        "options": ["부다페스트", "데브레첸", "세게드", "페치"],
+        "correct_answer": "부다페스트",
+        "explanation": "헝가리의 수도는 부다페스트입니다."
+      },
+      {
+        "id": "capital_020",
+        "question": "오스트리아의 수도는?",
+        "options": ["비엔나", "잘츠부르크", "그라츠", "인스브루크"],
+        "correct_answer": "비엔나",
+        "explanation": "오스트리아의 수도는 비엔나입니다."
+      },
+      {
+        "id": "capital_021",
+        "question": "스위스의 수도는?",
+        "options": ["베른", "취리히", "제네바", "바젤"],
+        "correct_answer": "베른",
+        "explanation": "스위스의 수도는 베른입니다."
+      },
+      {
+        "id": "capital_022",
+        "question": "벨기에의 수도는?",
+        "options": ["브뤼셀", "안트베르펜", "겐트", "브뤼헤"],
+        "correct_answer": "브뤼셀",
+        "explanation": "벨기에의 수도는 브뤼셀입니다."
+      },
+      {
+        "id": "capital_023",
+        "question": "포르투갈의 수도는?",
+        "options": ["리스본", "포르투", "브라가", "코임브라"],
+        "correct_answer": "리스본",
+        "explanation": "포르투갈의 수도는 리스본입니다."
+      },
+      {
+        "id": "capital_024",
+        "question": "그리스의 수도는?",
+        "options": ["아테네", "테살로니키", "파트라", "이라클리오"],
+        "correct_answer": "아테네",
+        "explanation": "그리스의 수도는 아테네입니다."
+      },
+      {
+        "id": "capital_025",
+        "question": "터키의 수도는?",
+        "options": ["앙카라", "이스탄불", "이즈미르", "부르사"],
+        "correct_answer": "앙카라",
+        "explanation": "터키의 수도는 앙카라입니다."
+      },
+      {
+        "id": "capital_026",
+        "question": "이집트의 수도는?",
+        "options": ["카이로", "알렉산드리아", "기자", "룩소르"],
+        "correct_answer": "카이로",
+        "explanation": "이집트의 수도는 카이로입니다."
+      },
+      {
+        "id": "capital_027",
+        "question": "남아프리카 공화국의 수도는?",
+        "options": ["케이프타운", "요하네스버그", "프리토리아", "더반"],
+        "correct_answer": "프리토리아",
+        "explanation": "남아공의 행정수도는 프리토리아입니다."
+      },
+      {
+        "id": "capital_028",
+        "question": "나이지리아의 수도는?",
+        "options": ["아부자", "라고스", "카노", "이바단"],
+        "correct_answer": "아부자",
+        "explanation": "나이지리아의 수도는 아부자입니다."
+      },
+      {
+        "id": "capital_029",
+        "question": "케냐의 수도는?",
+        "options": ["나이로비", "몸바사", "키수무", "나쿠루"],
+        "correct_answer": "나이로비",
+        "explanation": "케냐의 수도는 나이로비입니다."
+      },
+      {
+        "id": "capital_030",
+        "question": "모로코의 수도는?",
+        "options": ["라바트", "카사블랑카", "마라케시", "페스"],
+        "correct_answer": "라바트",
+        "explanation": "모로코의 수도는 라바트입니다."
+      },
+      {
+        "id": "capital_031",
+        "question": "칠레의 수도는?",
+        "options": ["산티아고", "발파라이소", "콘셉시온", "라 세레나"],
+        "correct_answer": "산티아고",
+        "explanation": "칠레의 수도는 산티아고입니다."
+      },
+      {
+        "id": "capital_032",
+        "question": "아르헨티나의 수도는?",
+        "options": ["부에노스아이레스", "코르도바", "로사리오", "멘도사"],
+        "correct_answer": "부에노스아이레스",
+        "explanation": "아르헨티나의 수도는 부에노스아이레스입니다."
+      },
+      {
+        "id": "capital_033",
+        "question": "페루의 수도는?",
+        "options": ["리마", "쿠스코", "아레키파", "트루히요"],
+        "correct_answer": "리마",
+        "explanation": "페루의 수도는 리마입니다."
+      },
+      {
+        "id": "capital_034",
+        "question": "콜롬비아의 수도는?",
+        "options": ["보고타", "메델린", "칼리", "바랑키야"],
+        "correct_answer": "보고타",
+        "explanation": "콜롬비아의 수도는 보고타입니다."
+      },
+      {
+        "id": "capital_035",
+        "question": "베네수엘라의 수도는?",
+        "options": ["카라카스", "마라카이보", "발렌시아", "바르키시메토"],
+        "correct_answer": "카라카스",
+        "explanation": "베네수엘라의 수도는 카라카스입니다."
+      },
+      {
+        "id": "capital_036",
+        "question": "이스라엘의 수도는?",
+        "options": ["예루살렘", "텔아비브", "하이파", "베르셰바"],
+        "correct_answer": "예루살렘",
+        "explanation": "이스라엘의 수도는 예루살렘입니다."
+      },
+      {
+        "id": "capital_037",
+        "question": "사우디아라비아의 수도는?",
+        "options": ["리야드", "젯다", "메카", "메디나"],
+        "correct_answer": "리야드",
+        "explanation": "사우디아라비아의 수도는 리야드입니다."
+      },
+      {
+        "id": "capital_038",
+        "question": "UAE의 수도는?",
+        "options": ["아부다비", "두바이", "샤르자", "아즈만"],
+        "correct_answer": "아부다비",
+        "explanation": "UAE의 수도는 아부다비입니다."
+      },
+      {
+        "id": "capital_039",
+        "question": "이란의 수도는?",
+        "options": ["테헤란", "이스파한", "마슈하드", "타브리즈"],
+        "correct_answer": "테헤란",
+        "explanation": "이란의 수도는 테헤란입니다."
+      },
+      {
+        "id": "capital_040",
+        "question": "이라크의 수도는?",
+        "options": ["바그다드", "바스라", "모술", "에르빌"],
+        "correct_answer": "바그다드",
+        "explanation": "이라크의 수도는 바그다드입니다."
+      },
+      {
+        "id": "capital_041",
+        "question": "파키스탄의 수도는?",
+        "options": ["이슬라마바드", "카라치", "라호르", "파이살라바드"],
+        "correct_answer": "이슬라마바드",
+        "explanation": "파키스탄의 수도는 이슬라마바드입니다."
+      },
+      {
+        "id": "capital_042",
+        "question": "방글라데시의 수도는?",
+        "options": ["다카", "치타공", "실헤트", "라지샤히"],
+        "correct_answer": "다카",
+        "explanation": "방글라데시의 수도는 다카입니다."
+      },
+      {
+        "id": "capital_043",
+        "question": "미얀마의 수도는?",
+        "options": ["네피도", "양곤", "만달레이", "바간"],
+        "correct_answer": "네피도",
+        "explanation": "미얀마의 수도는 네피도입니다."
+      },
+      {
+        "id": "capital_044",
+        "question": "베트남의 수도는?",
+        "options": ["하노이", "호치민", "다낭", "후에"],
+        "correct_answer": "하노이",
+        "explanation": "베트남의 수도는 하노이입니다."
+      },
+      {
+        "id": "capital_045",
+        "question": "필리핀의 수도는?",
+        "options": ["마닐라", "세부", "다바오", "일로일로"],
+        "correct_answer": "마닐라",
+        "explanation": "필리핀의 수도는 마닐라입니다."
+      },
+      {
+        "id": "capital_046",
+        "question": "인도네시아의 수도는?",
+        "options": ["자카르타", "수라바야", "반둥", "메단"],
+        "correct_answer": "자카르타",
+        "explanation": "인도네시아의 수도는 자카르타입니다."
+      },
+      {
+        "id": "capital_047",
+        "question": "말레이시아의 수도는?",
+        "options": ["쿠알라룸푸르", "조호르바루", "페낭", "쿠칭"],
+        "correct_answer": "쿠알라룸푸르",
+        "explanation": "말레이시아의 수도는 쿠알라룸푸르입니다."
+      },
+      {
+        "id": "capital_048",
+        "question": "싱가포르의 수도는?",
+        "options": ["싱가포르", "말레이시아", "인도네시아", "브루나이"],
+        "correct_answer": "싱가포르",
+        "explanation": "싱가포르는 도시국가로 수도가 싱가포르입니다."
+      },
+      {
+        "id": "capital_049",
+        "question": "뉴질랜드의 수도는?",
+        "options": ["웰링턴", "오클랜드", "크라이스트처치", "해밀턴"],
+        "correct_answer": "웰링턴",
+        "explanation": "뉴질랜드의 수도는 웰링턴입니다."
+      },
+      {
+        "id": "capital_050",
+        "question": "아르메니아의 수도는?",
+        "options": ["예레반", "기유므리", "바나조르", "고리스"],
+        "correct_answer": "예레반",
+        "explanation": "아르메니아의 수도는 예레반입니다."
+      }
+    ],
+    "연애심리": [
+      {
+        "id": "love_001",
+        "question": "첫인상이 결정되는 시간은?",
+        "options": ["1초", "3초", "7초", "10초"],
+        "correct_answer": "7초",
+        "explanation": "첫인상은 만난 후 약 7초 내에 결정된다고 알려져 있습니다."
+      },
+      {
+        "id": "love_002",
+        "question": "연애에서 '끌림의 법칙'이라고 불리는 현상은?",
+        "options": ["유사성의 법칙", "근접성의 법칙", "호감의 상호성", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "유사성, 근접성, 호감의 상호성 등이 모두 연애에서 끌림을 만드는 요소들입니다."
+      },
+      {
+        "id": "love_003",
+        "question": "연애 관계에서 가장 중요한 요소는?",
+        "options": ["외모", "성격", "소통", "경제력"],
+        "correct_answer": "소통",
+        "explanation": "건강한 연애 관계를 위해서는 서로 간의 소통이 가장 중요합니다."
+      },
+      {
+        "id": "love_004",
+        "question": "사랑의 3요소가 아닌 것은?",
+        "options": ["친밀감", "열정", "헌신", "질투"],
+        "correct_answer": "질투",
+        "explanation": "스턴버그의 사랑 삼각형 이론에 따르면 친밀감, 열정, 헌신이 사랑의 3요소입니다."
+      },
+      {
+        "id": "love_005",
+        "question": "연애 초기에 나타나는 심리 현상은?",
+        "options": ["헤일로 효과", "인지 부조화", "확증 편향", "투사"],
+        "correct_answer": "헤일로 효과",
+        "explanation": "연애 초기에는 상대방의 한 가지 좋은 점이 전체를 좋게 보이게 하는 헤일로 효과가 나타납니다."
+      },
+      {
+        "id": "love_006",
+        "question": "연애에서 '밀당'의 심리학적 근거는?",
+        "options": ["간헐적 강화", "고정 강화", "부분 강화", "연속 강화"],
+        "correct_answer": "간헐적 강화",
+        "explanation": "밀당은 간헐적 강화 원리로, 불규칙한 보상이 더 강한 중독성을 만듭니다."
+      },
+      {
+        "id": "love_007",
+        "question": "MBTI에서 감정형(F)과 사고형(T) 중 연애에서 더 로맨틱한 경향은?",
+        "options": ["감정형(F)", "사고형(T)", "둘 다 같음", "상황에 따라"],
+        "correct_answer": "감정형(F)",
+        "explanation": "감정형(F)은 감정과 관계를 중시하여 더 로맨틱한 표현을 하는 경향이 있습니다."
+      },
+      {
+        "id": "love_008",
+        "question": "연애에서 '츤데레'의 심리적 배경은?",
+        "options": ["방어기제", "애착 스타일", "성격 특성", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "츤데레는 방어기제, 회피형 애착, 내향적 성격 등이 복합적으로 나타나는 현상입니다."
+      },
+      {
+        "id": "love_009",
+        "question": "커플이 가장 많이 헤어지는 시기는?",
+        "options": ["3개월", "6개월", "1년", "3년"],
+        "correct_answer": "3개월",
+        "explanation": "연애 초기 3개월 경 현실적인 면들이 보이기 시작하면서 헤어지는 경우가 많습니다."
+      },
+      {
+        "id": "love_010",
+        "question": "연애에서 '썸'이 길어지는 이유는?",
+        "options": ["불안감", "안전함", "호기심", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "썸은 불안감, 안전함에 대한 욕구, 호기심 등이 복합적으로 작용하여 길어집니다."
+      },
+      {
+        "id": "love_011",
+        "question": "연애에서 '로맨틱 러브'의 지속 기간은 평균?",
+        "options": ["6개월", "1년", "2년", "3년"],
+        "correct_answer": "2년",
+        "explanation": "로맨틱 러브는 평균 18개월~2년 정도 지속된다고 알려져 있습니다."
+      },
+      {
+        "id": "love_012",
+        "question": "첫 데이트에서 가장 중요한 요소는?",
+        "options": ["외모", "대화", "분위기", "모든 것"],
+        "correct_answer": "대화",
+        "explanation": "첫 데이트에서는 서로를 알아가는 대화가 가장 중요합니다."
+      },
+      {
+        "id": "love_013",
+        "question": "연애에서 '미러링'의 효과는?",
+        "options": ["호감도 증가", "친밀감 형성", "신뢰도 향상", "모든 것"],
+        "correct_answer": "모든 것",
+        "explanation": "미러링은 호감도, 친밀감, 신뢰도를 모두 향상시키는 효과가 있습니다."
+      },
+      {
+        "id": "love_014",
+        "question": "연애에서 '가스라이팅'의 의미는?",
+        "options": ["심리적 조작", "애정표현", "관심끌기", "소통방법"],
+        "correct_answer": "심리적 조작",
+        "explanation": "가스라이팅은 상대방을 심리적으로 조작하여 현실감각을 잃게 만드는 행위입니다."
+      },
+      {
+        "id": "love_015",
+        "question": "연애에서 '러브 바밍'이란?",
+        "options": ["과도한 관심", "냉담한 태도", "일관된 애정", "평범한 연애"],
+        "correct_answer": "과도한 관심",
+        "explanation": "러브 바밍은 연애 초기에 과도한 관심과 애정을 쏟는 행위를 말합니다."
+      },
+      {
+        "id": "love_016",
+        "question": "연애에서 '브레드크럼밍'의 의미는?",
+        "options": ["애매한 관심", "확실한 거절", "진심 고백", "직접 만남"],
+        "correct_answer": "애매한 관심",
+        "explanation": "브레드크럼밍은 빵 부스러기처럼 조금씩 애매한 관심을 주는 행위입니다."
+      },
+      {
+        "id": "love_017",
+        "question": "이상형과 실제 연인의 차이에 대한 심리는?",
+        "options": ["이상형이 더 중요", "실제 만남이 더 중요", "둘 다 중요", "상황에 따라"],
+        "correct_answer": "실제 만남이 더 중요",
+        "explanation": "실제 연애에서는 이상형보다 실제 만남에서의 감정과 궁합이 더 중요합니다."
+      },
+      {
+        "id": "love_018",
+        "question": "연애에서 '스톡홀름 증후군'과 유사한 현상은?",
+        "options": ["독성 관계", "건강한 관계", "친구 관계", "가족 관계"],
+        "correct_answer": "독성 관계",
+        "explanation": "독성 관계에서도 피해자가 가해자에게 애착을 느끼는 현상이 나타날 수 있습니다."
+      },
+      {
+        "id": "love_019",
+        "question": "연애에서 '고스팅'의 의미는?",
+        "options": ["갑작스런 연락 두절", "과도한 연락", "솔직한 대화", "천천히 거리두기"],
+        "correct_answer": "갑작스런 연락 두절",
+        "explanation": "고스팅은 유령처럼 갑자기 사라져서 연락을 완전히 끊는 행위입니다."
+      },
+      {
+        "id": "love_020",
+        "question": "연애에서 '안전 애착형'의 특징은?",
+        "options": ["안정적 관계", "불안한 관계", "회피적 관계", "혼란스런 관계"],
+        "correct_answer": "안정적 관계",
+        "explanation": "안전 애착형은 안정적이고 건강한 연애 관계를 유지하는 경향이 있습니다."
+      },
+      {
+        "id": "love_021",
+        "question": "연애에서 '회피 애착형'의 특징은?",
+        "options": ["친밀감 회피", "과도한 집착", "완벽한 소통", "즉석 사랑"],
+        "correct_answer": "친밀감 회피",
+        "explanation": "회피 애착형은 너무 가까워지는 것을 불편해하며 친밀감을 회피합니다."
+      },
+      {
+        "id": "love_022",
+        "question": "연애에서 '불안 애착형'의 특징은?",
+        "options": ["버림받을 불안", "완전한 신뢰", "독립적 성향", "감정 억제"],
+        "correct_answer": "버림받을 불안",
+        "explanation": "불안 애착형은 상대방이 떠날까봐 항상 불안해합니다."
+      },
+      {
+        "id": "love_023",
+        "question": "연애에서 '혼란 애착형'의 특징은?",
+        "options": ["일관성 없는 행동", "안정적 관계", "명확한 소통", "독립적 사고"],
+        "correct_answer": "일관성 없는 행동",
+        "explanation": "혼란 애착형은 가까워지고 싶으면서도 두려워하는 모순된 행동을 보입니다."
+      },
+      {
+        "id": "love_024",
+        "question": "연애에서 '5:1 비율'이란?",
+        "options": ["긍정:부정 상호작용", "만남:헤어짐", "말:행동", "주는 것:받는 것"],
+        "correct_answer": "긍정:부정 상호작용",
+        "explanation": "건강한 관계에서는 긍정적 상호작용이 부정적 상호작용보다 5배 많아야 합니다."
+      },
+      {
+        "id": "love_025",
+        "question": "연애에서 '확증 편향'의 예는?",
+        "options": ["좋은 면만 보기", "객관적 판단", "균형잡힌 시각", "냉정한 분석"],
+        "correct_answer": "좋은 면만 보기",
+        "explanation": "연애 초기에는 상대방의 좋은 면만 보려는 확증 편향이 나타납니다."
+      },
+      {
+        "id": "love_026",
+        "question": "연애에서 '투사'의 의미는?",
+        "options": ["자신의 감정을 상대에게 씌움", "상대의 마음 읽기", "객관적 관찰", "솔직한 대화"],
+        "correct_answer": "자신의 감정을 상대에게 씌움",
+        "explanation": "투사는 자신의 감정이나 생각을 상대방도 같다고 가정하는 것입니다."
+      },
+      {
+        "id": "love_027",
+        "question": "연애에서 '경계선'의 중요성은?",
+        "options": ["개인 영역 보호", "완전한 융합", "모든 것 공유", "의존적 관계"],
+        "correct_answer": "개인 영역 보호",
+        "explanation": "건강한 연애에서는 서로의 개인적 영역과 경계를 존중하는 것이 중요합니다."
+      },
+      {
+        "id": "love_028",
+        "question": "연애에서 '공동의존'이란?",
+        "options": ["과도한 의존", "독립적 관계", "균형잡힌 관계", "일방적 관계"],
+        "correct_answer": "과도한 의존",
+        "explanation": "공동의존은 서로에게 과도하게 의존하여 건강하지 못한 관계를 만드는 것입니다."
+      },
+      {
+        "id": "love_029",
+        "question": "연애에서 '갈등 해결'의 가장 좋은 방법은?",
+        "options": ["대화와 타협", "회피", "강요", "포기"],
+        "correct_answer": "대화와 타협",
+        "explanation": "건강한 관계에서는 대화를 통해 갈등을 해결하고 서로 타협합니다."
+      },
+      {
+        "id": "love_030",
+        "question": "연애에서 '화해'의 핵심은?",
+        "options": ["진심어린 사과", "시간이 해결", "선물 주기", "무시하기"],
+        "correct_answer": "진심어린 사과",
+        "explanation": "진정한 화해를 위해서는 진심어린 사과와 변화 의지가 필요합니다."
+      },
+      {
+        "id": "love_031",
+        "question": "연애에서 '이별'을 결정하는 주요 요인은?",
+        "options": ["가치관 차이", "외모 변화", "경제적 어려움", "주변 반대"],
+        "correct_answer": "가치관 차이",
+        "explanation": "장기적으로는 가치관의 차이가 이별의 가장 큰 요인이 됩니다."
+      },
+      {
+        "id": "love_032",
+        "question": "연애에서 '재회'의 성공률은?",
+        "options": ["낮음", "보통", "높음", "매우 높음"],
+        "correct_answer": "낮음",
+        "explanation": "통계적으로 헤어진 연인의 재회 성공률은 낮은 편입니다."
+      },
+      {
+        "id": "love_033",
+        "question": "연애에서 '질투'의 적정 수준은?",
+        "options": ["적당한 질투", "전혀 없음", "매우 강함", "폭발적"],
+        "correct_answer": "적당한 질투",
+        "explanation": "적당한 질투는 관심의 표현이지만, 과도하면 관계를 해칩니다."
+      },
+      {
+        "id": "love_034",
+        "question": "연애에서 '신뢰'를 쌓는 방법은?",
+        "options": ["일관된 행동", "말로만 약속", "과도한 관심", "독점 욕구"],
+        "correct_answer": "일관된 행동",
+        "explanation": "신뢰는 말이 아닌 일관되고 진실한 행동으로 쌓아집니다."
+      },
+      {
+        "id": "love_035",
+        "question": "연애에서 '사랑의 언어' 이론의 5가지는?",
+        "options": ["인정, 시간, 선물, 봉사, 스킨십", "외모, 성격, 취미, 가치관, 미래", "만남, 대화, 데이트, 선물, 이별", "첫인상, 호감, 고백, 연애, 결혼"],
+        "correct_answer": "인정, 시간, 선물, 봉사, 스킨십",
+        "explanation": "사랑의 언어는 인정하는 말, 함께하는 시간, 선물, 봉사, 신체적 접촉입니다."
+      },
+      {
+        "id": "love_036",
+        "question": "연애에서 '마음의 벽'을 허무는 방법은?",
+        "options": ["진솔한 대화", "강압적 접근", "시간 압박", "조건부 사랑"],
+        "correct_answer": "진솔한 대화",
+        "explanation": "마음의 벽은 진솔하고 꾸준한 대화를 통해 서서히 허물어집니다."
+      },
+      {
+        "id": "love_037",
+        "question": "연애에서 '완벽한 상대'는?",
+        "options": ["존재하지 않음", "반드시 존재", "찾으면 있음", "운이 좋으면"],
+        "correct_answer": "존재하지 않음",
+        "explanation": "완벽한 상대는 존재하지 않으며, 서로를 이해하고 맞춰가는 것이 중요합니다."
+      },
+      {
+        "id": "love_038",
+        "question": "연애에서 '타이밍'의 중요성은?",
+        "options": ["매우 중요", "보통", "별로 중요하지 않음", "전혀 중요하지 않음"],
+        "correct_answer": "매우 중요",
+        "explanation": "연애에서 타이밍은 관계의 시작과 발전에 매우 중요한 요소입니다."
+      },
+      {
+        "id": "love_039",
+        "question": "연애에서 '소울메이트'의 개념은?",
+        "options": ["이상적 개념", "과학적 사실", "확실한 존재", "미신"],
+        "correct_answer": "이상적 개념",
+        "explanation": "소울메이트는 이상적인 개념으로, 현실적으로는 서로 노력하여 만들어가는 것입니다."
+      },
+      {
+        "id": "love_040",
+        "question": "연애에서 '운명'에 대한 관점은?",
+        "options": ["선택과 노력이 더 중요", "모든 것이 운명", "운명이 전부", "우연의 일치"],
+        "correct_answer": "선택과 노력이 더 중요",
+        "explanation": "성공적인 연애는 운명보다는 서로의 선택과 지속적인 노력이 더 중요합니다."
+      },
+      {
+        "id": "love_041",
+        "question": "연애에서 '직감'의 역할은?",
+        "options": ["초기 판단에 도움", "모든 결정의 기준", "무시해야 할 것", "과학적 근거 없음"],
+        "correct_answer": "초기 판단에 도움",
+        "explanation": "직감은 초기 관계에서 중요한 단서를 제공하지만, 모든 결정의 기준이 되어서는 안 됩니다."
+      },
+      {
+        "id": "love_042",
+        "question": "연애에서 '기대'의 적정 수준은?",
+        "options": ["현실적 기대", "과도한 기대", "전혀 기대 안 함", "무한한 기대"],
+        "correct_answer": "현실적 기대",
+        "explanation": "건강한 연애를 위해서는 현실적이고 합리적인 기대를 갖는 것이 중요합니다."
+      },
+      {
+        "id": "love_043",
+        "question": "연애에서 '변화'에 대한 태도는?",
+        "options": ["유연한 적응", "절대 불변", "강요된 변화", "일방적 변화"],
+        "correct_answer": "유연한 적응",
+        "explanation": "서로의 성장과 변화를 인정하고 유연하게 적응하는 것이 중요합니다."
+      },
+      {
+        "id": "love_044",
+        "question": "연애에서 '자존감'의 영향은?",
+        "options": ["관계의 질 결정", "전혀 상관없음", "상대방만 중요", "외모가 더 중요"],
+        "correct_answer": "관계의 질 결정",
+        "explanation": "자존감은 건강한 연애 관계를 유지하는 데 핵심적인 역할을 합니다."
+      },
+      {
+        "id": "love_045",
+        "question": "연애에서 '감정 조절'의 중요성은?",
+        "options": ["매우 중요", "보통", "별로 중요하지 않음", "감정 표현이 더 중요"],
+        "correct_answer": "매우 중요",
+        "explanation": "감정을 적절히 조절하고 표현하는 능력은 건강한 관계 유지에 필수적입니다."
+      },
+      {
+        "id": "love_046",
+        "question": "연애에서 '과거 연애'의 영향은?",
+        "options": ["학습 경험", "부정적 영향만", "전혀 상관없음", "반복될 뿐"],
+        "correct_answer": "학습 경험",
+        "explanation": "과거 연애는 긍정적 학습 경험이 될 수 있으며, 더 나은 관계를 만드는 데 도움이 됩니다."
+      },
+      {
+        "id": "love_047",
+        "question": "연애에서 '친구와 연인'의 경계는?",
+        "options": ["로맨틱한 감정", "단순한 호감", "시간의 차이", "만남의 빈도"],
+        "correct_answer": "로맨틱한 감정",
+        "explanation": "친구와 연인의 가장 큰 차이는 로맨틱하고 독점적인 감정의 유무입니다."
+      },
+      {
+        "id": "love_048",
+        "question": "연애에서 '장거리 연애'의 성공 요인은?",
+        "options": ["신뢰와 소통", "자주 만남", "많은 선물", "강한 집착"],
+        "correct_answer": "신뢰와 소통",
+        "explanation": "장거리 연애에서는 서로에 대한 깊은 신뢰와 꾸준한 소통이 가장 중요합니다."
+      },
+      {
+        "id": "love_049",
+        "question": "연애에서 '나이 차이'의 영향은?",
+        "options": ["개인차가 더 중요", "절대적 기준", "많을수록 좋음", "없을수록 좋음"],
+        "correct_answer": "개인차가 더 중요",
+        "explanation": "나이 차이보다는 개인의 성숙도와 가치관의 일치가 더 중요합니다."
+      },
+      {
+        "id": "love_050",
+        "question": "연애에서 '행복'의 비결은?",
+        "options": ["서로 존중하고 성장", "완벽한 조건", "끝없는 로맨스", "갈등 없는 관계"],
+        "correct_answer": "서로 존중하고 성장",
+        "explanation": "진정한 연애의 행복은 서로를 존중하며 함께 성장해 나가는 데 있습니다."
+      }
+    ]
+  }
+}

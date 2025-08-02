@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 앱 - 대시보드</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">🧠 퀴즈 앱</a>
+            <div class="navbar-nav ms-auto d-flex align-items-center">
+                <!-- 테마 설정 드롭다운 -->
+                <div class="dropdown me-3">
+                    <button class="btn btn-outline-light btn-sm dropdown-toggle" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        🎨 테마
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="themeDropdown">
+                        <li><button class="dropdown-item" onclick="setTheme('light')">☀️ 라이트 모드</button></li>
+                        <li><button class="dropdown-item" onclick="setTheme('dark')">🌙 다크 모드</button></li>
+                        <li><button class="dropdown-item" onclick="setTheme('auto')">⚙️ 시스템 설정</button></li>
+                    </ul>
+                </div>
+                <span class="navbar-text me-3">안녕하세요, {{ session.username }}님!</span>
+                <a class="nav-link" href="{{ url_for('logout') }}">로그아웃</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center mb-5">퀴즈 게임 메뉴</h1>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body text-center">
+                        <div class="display-1 text-primary mb-3">📚</div>
+                        <h4 class="card-title">혼자 퀴즈 맞히기</h4>
+                        <p class="card-text">다양한 분야의 퀴즈를 혼자서 풀어보세요. 자신의 실력을 테스트해보세요!</p>
+                        <a href="{{ url_for('solo_quiz') }}" class="btn btn-primary">시작하기</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body text-center">
+                        <div class="display-1 text-warning mb-3">⚔️</div>
+                        <h4 class="card-title">1대1 퀴즈 배틀</h4>
+                        <p class="card-text">다른 사용자와 실시간으로 퀴즈 대결을 펼쳐보세요!</p>
+                        <p class="text-muted small mb-3">🟢 현재 접속 중: <span id="online-users">0</span>명</p>
+                        <a href="{{ url_for('battle_quiz') }}" class="btn btn-warning">배틀 시작</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body text-center">
+                        <div class="display-1 text-success mb-3">📋</div>
+                        <h4 class="card-title">문제 히스토리</h4>
+                        <p class="card-text">지금까지 푼 문제들을 다시 확인하고 복습해보세요.</p>
+                        <a href="{{ url_for('history') }}" class="btn btn-success">히스토리 보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>게임 규칙</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6>점수 시스템</h6>
+                                <ul>
+                                    <li>5문제: 문제당 20점</li>
+                                    <li>10문제: 문제당 10점</li>
+                                    <li>20문제: 문제당 5점</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>문제 분야</h6>
+                                <ul>
+                                    <li>일반상식</li>
+                                    <li>역사</li>
+                                    <li>과학</li>
+                                    <li>시사</li>
+                                    <li>영화</li>
+                                    <li>드라마</li>
+                                    <li>게임</li>
+                                    <li>웹툰</li>
+                                    <li>애니메이션</li>
+                                    <li>수도</li>
+                                    <li>연애심리</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 테마 관리 함수들
+        function applyTheme(theme) {
+            const body = document.body;
+            const navbar = document.querySelector('.navbar');
+            const cards = document.querySelectorAll('.card');
+            
+            let actualTheme = theme;
+            if (theme === 'auto') {
+                actualTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            
+            if (actualTheme === 'dark') {
+                body.classList.add('bg-dark');
+                body.classList.remove('bg-light');
+                body.style.color = '#ffffff';
+                
+                if (navbar) {
+                    navbar.classList.add('navbar-dark', 'bg-dark');
+                    navbar.classList.remove('navbar-light', 'bg-light');
+                }
+                
+                cards.forEach(card => {
+                    card.classList.add('bg-dark', 'text-white');
+                    card.classList.remove('bg-light');
+                    card.style.border = '1px solid #495057';
+                });
+            } else {
+                body.classList.add('bg-light');
+                body.classList.remove('bg-dark');
+                body.style.color = '#212529';
+                
+                if (navbar) {
+                    navbar.classList.add('navbar-dark', 'bg-dark'); // 네비바는 항상 어두운 테마
+                    navbar.classList.remove('navbar-light', 'bg-light');
+                }
+                
+                cards.forEach(card => {
+                    card.classList.add('bg-light');
+                    card.classList.remove('bg-dark', 'text-white');
+                    card.style.border = '1px solid #dee2e6';
+                    card.style.color = '#212529';
+                });
+            }
+        }
+
+        function setTheme(theme) {
+            localStorage.setItem('theme', theme);
+            applyTheme(theme);
+        }
+
+        // 페이지 로드 시 저장된 테마 적용
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'auto';
+            applyTheme(savedTheme);
+            
+            // 시스템 테마 변경 감지
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                const currentTheme = localStorage.getItem('theme') || 'auto';
+                if (currentTheme === 'auto') {
+                    applyTheme('auto');
+                }
+            });
+            
+            // 접속 인원 수 업데이트
+            updateOnlineUsers();
+            // 10초마다 접속 인원 수 업데이트
+            setInterval(updateOnlineUsers, 10000);
+        });
+        
+        // 접속 인원 수 업데이트 함수
+        function updateOnlineUsers() {
+            fetch('/api/online_users')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('online-users').textContent = data.count;
+                })
+                .catch(error => {
+                    console.log('접속 인원 수를 가져오는데 실패했습니다:', error);
+                    document.getElementById('online-users').textContent = '?';
+                });
+        }
+    </script>
+</body>
+</html>
