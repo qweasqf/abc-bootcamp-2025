@@ -1,0 +1,483 @@
+:root {
+    --primary-color: #4a90e2;
+    --primary-hover-color: #357abd;
+    --background-color: #f0f8ff;
+    --container-bg-color: white;
+    --panel-bg-color: #f9f9f9;
+    --text-color: #333;
+    --disabled-color: #ccc;
+    --gauge-color: #76c7c0;
+    --border-color: #ddd;
+    --border-radius-large: 20px;
+    --border-radius-medium: 10px;
+    --border-radius-small: 8px;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 앱 컨테이너를 세로 중앙에 가깝게 배치 */
+    padding: 20px; /* 작은 화면에서 여백 확보 */
+    box-sizing: border-box; /* 패딩이 너비에 포함되도록 */
+}
+
+#app {
+    width: 100%; /* 너비를 100%로 설정하여 유연하게 반응 */
+    max-width: 1200px; /* 최대 너비를 1400px로 제한 */
+    min-width: 340px;
+    background-color: var(--container-bg-color);
+    border-radius: var(--border-radius-large);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* 변경: 내부 콘텐츠를 수직 중앙에 정렬 */
+    overflow-x: auto;
+    margin: 0px auto; /* 상단 마진을 0으로 조정하여 "붕 뜨는" 느낌 완화 */
+}
+
+/* 왼쪽 선택 패널 */
+#selection-panel {
+    width: 250px;
+    min-width: 200px; /* 최소 너비 추가 */
+    background-color: var(--panel-bg-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid var(--border-color);
+    box-sizing: border-box; /* 패딩이 너비에 포함되도록 */
+}
+
+#selection-panel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.animal-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* 버튼 사이 간격 */
+}
+
+.animal-choice-btn {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-medium);
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: black;
+}
+
+.animal-choice-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.animal-choice-btn.selected {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 15px var(--primary-color);
+}
+
+.animal-choice-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 중앙 게임 패널 */
+#game-panel {
+    flex-grow: 1;
+    padding: 32px 10px; /* 좌우 패딩만 적용 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* 상단 정렬 */
+    align-items: center;
+    text-align: center;
+    min-width: 320px; /* 최소 너비 확보 */
+    box-sizing: border-box;
+}
+
+#initial-message p {
+    font-size: 18px;
+    color: #666;
+}
+
+#game-screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* 메인 게임 박스와 사이드바 테이블을 가로로 배치하는 컨테이너 */
+#main-game-row {
+    width: 100%;
+    min-width: 320px; /* 최소 너비 조정 */
+    max-width: 100%; /* 부모 (#game-panel) 너비를 따르도록 */
+    display: flex;
+    flex-direction: row; /* 가로 배치 */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    overflow-x: auto;
+    flex-wrap: wrap; /* 공간 부족 시 줄 바꿈 허용 */
+}
+
+#main-game-box {
+    flex: 1 1 400px; /* 최소 400px 너비를 가지며 유연하게 늘어나거나 줄어듦 */
+    max-width: 500px; /* 최대 너비 제한 유지 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 300px; /* 더 작은 최소 너비 허용 */
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.01);
+    padding: 18px 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+/* 새로운 테이블 컨테이너 스타일 */
+#sidebar-tables-container {
+    display: flex;
+    flex-direction: row; /* 기본은 가로 배치 */
+    flex-wrap: wrap; /* 공간 부족 시 다음 줄로 이동 */
+    gap: 18px; /* 테이블 박스 사이 간격 */
+    flex: 1 1 340px; /* 최소 340px (두 테이블 너비 + 간격) 를 가지며 유연하게 조절 */
+    min-width: 320px; /* 컨테이너 최소 너비 유지 */
+    max-width: 400px; /* 두 테이블과 간격을 포함할 수 있는 적절한 최대 너비 (조정) */
+    margin-top: 10px;
+    justify-content: center; /* 테이블들이 컨테이너 내에서 중앙에 오도록 */
+    align-items: flex-start; /* 아이템들을 상단에 정렬 */
+    box-sizing: border-box;
+}
+
+#record-table-box, #probability-table-box {
+    flex: 1 1 150px; /* 각 테이블 박스가 최소 150px 너비를 갖고 유연하게 늘어나도록 */
+    max-width: 170px; /* 개별 테이블 박스의 최대 너비 제한 */
+    background: #f7f7fa;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.01);
+    padding: 10px 4px;
+    margin-top: 0; /* 부모의 gap으로 간격 처리되므로 개별 margin-top 제거 */
+    min-width: 140px; /* 개별 테이블 박스 최소 너비 */
+    box-sizing: border-box;
+}
+
+/* 개별 테이블 스타일 조정 (테이블 박스 내부에 꽉 차도록) */
+#record-table, #probability-table {
+    width: 100%; /* 부모 요소의 너비를 따르도록 */
+    min-width: unset; /* 더 이상 고정된 최소 너비가 필요 없음 */
+    max-width: unset; /* 더 이상 고정된 최대 너비가 필요 없음 */
+}
+
+.hidden {
+    display: none !important; /* !important로 확실하게 숨김 처리 */
+}
+
+#animal-display {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#animal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+#info-box {
+    width: 80%;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius-medium);
+    padding: 20px;
+    background-color: #fafafa;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+#gauge-container {
+    width: 80%;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: var(--border-radius-medium);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#gauge-bar {
+    width: 0%;
+    height: 100%;
+    background-color: var(--gauge-color);
+    transition: width 1s linear;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: var(--border-radius-small);
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    margin: 5px 8px 5px 0;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#reset-btn {
+    background-color: #f36c60;
+}
+
+#reset-btn:hover {
+    background-color: #d9534f;
+}
+
+#save-btn {
+    background-color: #6ccf4d;
+}
+#save-btn:hover {
+    background-color: #4cae2a;
+}
+
+/* 새로 추가된 버튼 스타일 */
+#new-game-btn {
+    background-color: #5bc0de; /* Reset 버튼과 다른 색상으로 구분 */
+}
+
+#new-game-btn:hover {
+    background-color: #31b0d5;
+}
+
+#trial-count {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff7;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    z-index: 2;
+}
+
+#record-table {
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.01);
+    font-size: 16px;
+    margin-top: 0;
+    min-width: 180px;
+}
+#record-table th, #record-table td {
+    padding: 4px 6px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#record-table thead tr {
+    background: #f0f0f0;
+}
+
+/* 확률 표 박스 스타일 */
+#probability-table-box {
+    flex: 1 1 150px; /* 각 테이블 박스가 최소 150px 너비를 갖고 유연하게 늘어나도록 */
+    max-width: 170px; /* 개별 테이블 박스의 최대 너비 제한 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #f7f7fa;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.01);
+    padding: 10px 4px;
+    margin-top: 0;
+    min-width: 140px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#probability-table-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+#probability-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.01);
+    font-size: 15px;
+    margin-top: 0;
+    min-width: unset; /* 이제 부모 컨테이너가 너비를 결정 */
+    max-width: unset; /* 이제 부모 컨테이너가 너비를 결정 */
+}
+
+#probability-table th, #probability-table td {
+    padding: 4px 6px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#probability-table thead tr {
+    background: #f0f0f0;
+}
+
+/* 미디어 쿼리 안에도 추가하여 반응형 처리 */
+@media (max-width: 1200px) {
+    #app {
+        width: 100%; /* 작은 화면에서는 너비를 100%로 다시 줄임 */
+        margin: 20px auto; /* 상단 여백 추가 */
+        align-items: flex-start; /* 작은 화면에서는 다시 상단 정렬 */
+    }
+    #selection-panel {
+        width: 200px; /* 작은 화면에서 선택 패널 너비 조정 */
+        padding: 15px;
+    }
+    #game-panel {
+        padding: 20px 10px;
+    }
+    #main-game-row {
+        flex-direction: column; /* 작은 화면에서는 메인 게임 박스와 사이드바가 세로로 쌓이도록 */
+        max-width: 100%; /* 화면 너비에 맞게 조절 */
+        align-items: center; /* 세로로 쌓일 때 중앙 정렬 */
+    }
+    #main-game-box {
+        max-width: 90%; /* 작은 화면에서는 화면 너비에 맞게 조절 */
+        min-width: unset; /* 최소 너비 제한 해제 */
+    }
+    #sidebar-tables-container {
+        flex-direction: row; /* 작은 화면에서는 기록표와 확률표가 가로로 나란히 */
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 90%; /* 화면 너비에 맞게 조절 */
+        gap: 10px;
+        margin-top: 10px;
+    }
+    #record-table-box, #probability-table-box {
+        flex: 1 1 140px; /* 작은 화면에서 유연하게 크기 조절 */
+        min-width: 140px;
+        max-width: none;
+        margin-top: 0;
+    }
+    #record-table, #probability-table {
+        min-width: unset;
+        max-width: unset;
+    }
+}
+
+@media (max-width: 768px) { /* 더 작은 화면을 위한 추가 조정 */
+    #app {
+        flex-direction: column; /* 앱 전체 레이아웃도 세로로 변경 */
+        border-radius: 0; /* 작은 화면에서 라운드 코너 제거 */
+        margin: 0; /* 마진 제거 */
+        max-width: 100vw;
+        min-height: 100vh; /* 전체 화면 높이 사용 */
+        align-items: center; /* 작은 화면에서 앱 전체 레이아웃의 내부 콘텐츠를 중앙 정렬 */
+    }
+    #selection-panel {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color); /* 하단 경계선 추가 */
+        padding: 15px 10px;
+        flex-direction: row; /* 선택 패널 버튼 가로로 정렬 */
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #selection-panel h2 {
+        display: none; /* 작은 화면에서 제목 숨김 */
+    }
+    .animal-options {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .animal-choice-btn {
+        width: 100px; /* 버튼 크기 줄임 */
+        height: 100px;
+    }
+    #game-panel {
+        padding: 15px 5px;
+    }
+    #info-box, #gauge-container {
+        width: 95%; /* 작은 화면에서 너비 늘림 */
+    }
+    #main-game-box {
+        width: 95%; /* 작은 화면에서 너비 늘림 */
+        max-width: 95%;
+        padding: 10px 5px;
+    }
+    #sidebar-tables-container {
+        flex-direction: column; /* 가장 작은 화면에서는 테이블도 세로로 쌓이도록 */
+        width: 95%;
+        max-width: 95%;
+    }
+    #record-table-box, #probability-table-box {
+        width: 100%;
+        max-width: 100%;
+        min-width: unset;
+        margin: 0 auto;
+    }
+}
+
+
+/* 기존 glow 효과는 유지, 결과 애니메이션은 별도 적용 */
+.glow {
+    animation: glow-animation 0.7s ease-in-out;
+}
+
+.result-anim {
+    animation: result-flash 1s cubic-bezier(.4,2,.6,1) both;
+    box-shadow: 0 0 24px 8px #ffd70099, 0 0 8px 2px #4a90e2;
+    background: linear-gradient(90deg, #fffbe6 0%, #ffe0e0 100%);
+    border-color: #ffd700;
+}
+
+@keyframes result-flash {
+    0% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    30% {
+        transform: scale(1.12);
+        filter: brightness(1.4);
+    }
+    60% {
+        transform: scale(0.97);
+        filter: brightness(1.1);
+    }
+    100% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+}

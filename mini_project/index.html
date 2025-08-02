@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동물 키우기 시뮬레이터</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app">
+        <div id="selection-panel">
+            <h2>동물 선택</h2>
+            <div class="animal-options">
+                <button id="select-alpaca" class="animal-choice-btn">
+                    <img src="images/a1.png" alt="알파카 선택" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                    <span style="display:none;">알파카</span>
+                </button>
+                <button id="select-octopus" class="animal-choice-btn">
+                    <img src="images/o1.png" alt="문어 선택" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                    <span style="display:none;">문어</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="game-panel">
+            <div id="initial-message">
+                <h1>동물 키우기 시뮬레이터</h1>
+                <p>동물을 부유하게 키워보세요!</p>
+            </div>
+
+            <div id="game-screen" class="hidden">
+                <div id="main-game-row">
+                    <div id="main-game-box">
+                        <div id="trial-count">시행횟수 0/100</div>
+                        <div id="animal-display">
+                            <img id="animal-image" src="" alt="선택된 동물">
+                        </div>
+                        <div id="info-box"></div>
+                        <div id="gauge-container">
+                            <div id="gauge-bar"></div>
+                        </div>
+                        <button id="feed-btn">먹이주기 (0.8초 누르기)</button>
+                        <button id="save-btn">저장하기</button>
+                        <button id="new-game-btn">새로 키우기</button> <button id="reset-btn" class="hidden">다른 동물 키우기</button>
+                    </div>
+
+                    <div id="sidebar-tables-container">
+                        <div id="record-table-box">
+                            <table id="record-table">
+                                <thead>
+                                    <tr>
+                                        <th>동물</th>
+                                        <th>레벨</th>
+                                        <th>횟수</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="record-table-body"></tbody>
+                            </table>
+                        </div>
+                        <div id="probability-table-box" class="hidden">
+                            <h3>확률 표</h3>
+                            <table id="probability-table">
+                                <thead>
+                                    <tr>
+                                        <th>레벨</th>
+                                        <th>성공</th>
+                                        <th>실패</th>
+                                        <th>도망</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="probability-table-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
