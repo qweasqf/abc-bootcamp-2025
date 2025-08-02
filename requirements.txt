@@ -1,0 +1,8 @@
+openai
+python-dotenv
+streamlit
+gtts
+pygame
+
+requests
+httpx
