@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멜론 TOP100 차트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-100 p-8 font-sans">
+    <div class="max-w-5xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden">
+        <header class="bg-gradient-to-r from-green-500 to-emerald-600 p-6 text-white text-center">
+            <h1 class="text-3xl font-bold mb-2">멜론 TOP100 차트</h1>
+            <p class="text-lg">데이터는 pyhub.kr에서 실시간 조회됩니다.</p>
+        </header>
+        <main class="p-6">
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 pb-2 border-emerald-400">
+                    <span class="mr-2">📊</span> TOP10 차트
+                </h2>
+                <canvas id="top10-chart" height="120"></canvas>
+            </section>
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 pb-2 border-emerald-400">
+                    <span class="mr-2">🎵</span> 노래 목록
+                </h2>
+                <div id="song-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            </section>
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 pb-2 border-emerald-400">
+                    <span class="mr-2">🎤</span> 아티스트
+                </h2>
+                <div id="artist-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            </section>
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 pb-2 border-emerald-400">
+                    <span class="mr-2">💿</span> 앨범
+                </h2>
+                <div id="album-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            </section>
+            <section>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 pb-2 border-emerald-400">
+                    <span class="mr-2">🔍</span> 관련 검색어
+                </h2>
+                <div id="keyword-list" class="flex flex-wrap gap-2"></div>
+            </section>
+            <div id="error-message" class="text-red-600 mt-6 font-bold"></div>
+        </main>
+    </div>
+    <script>
+    async function fetchMelonData() {
+        try {
+            const res = await fetch('https://pyhub.kr/melon/20231204.json');
+            if (!res.ok) throw new Error('데이터를 불러올 수 없습니다.');
+            return await res.json();
+        } catch (e) {
+            document.getElementById('error-message').textContent = e.message;
+            return null;
+        }
+    }
+
+    function renderTop10Chart(songs) {
+        const ctx = document.getElementById('top10-chart').getContext('2d');
+        const top10 = songs.slice(0, 10);
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: top10.map((s, i) => `${i+1}. ${s.SONGNAME}`),
+                datasets: [{
+                    label: '순위',
+                    data: top10.map((_, i) => 10 - i),
+                    backgroundColor: 'rgba(16, 185, 129, 0.7)',
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                plugins: {
+                    legend: { display: false },
+                    title: { display: false }
+                },
+                scales: {
+                    x: { beginAtZero: true, ticks: { stepSize: 1 } },
+                    y: { }
+                }
+            }
+        });
+    }
+
+    function renderSongList(songs) {
+        const songList = document.getElementById('song-list');
+        songList.innerHTML = '';
+        songs.forEach(song => {
+            const songCard = `
+                <div class="bg-gray-50 rounded-lg p-4 shadow-sm flex items-center space-x-4">
+                    <img src="${song.ALBUMIMG}" alt="${song.ALBUMNAME}" class="w-16 h-16 rounded-md object-cover">
+                    <div>
+                        <p class="font-semibold text-gray-900">${song.SONGNAME}</p>
+                        <p class="text-sm text-gray-600">${song.ARTISTNAME}</p>
+                        <p class="text-xs text-gray-500">${song.ALBUMNAME}</p>
+                    </div>
+                </div>
+            `;
+            songList.insertAdjacentHTML('beforeend', songCard);
+        });
+    }
+
+    function renderArtistList(artists) {
+        const artistList = document.getElementById('artist-list');
+        artistList.innerHTML = '';
+        artists.forEach(artist => {
+            const artistCard = `
+                <div class="bg-gray-50 rounded-lg p-4 shadow-sm flex items-center space-x-4">
+                    <img src="${artist.ARITSTIMG}" alt="${artist.ARTISTNAME}" class="w-16 h-16 rounded-full object-cover">
+                    <div>
+                        <p class="font-semibold text-gray-900">${artist.ARTISTNAME}</p>
+                        <p class="text-sm text-gray-600">${artist.NATIONALITYNAME} / ${artist.SEX} / ${artist.ACTTYPENAMES}</p>
+                    </div>
+                </div>
+            `;
+            artistList.insertAdjacentHTML('beforeend', artistCard);
+        });
+    }
+
+    function renderAlbumList(albums) {
+        const albumList = document.getElementById('album-list');
+        albumList.innerHTML = '';
+        albums.forEach(album => {
+            const albumCard = `
+                <div class="bg-gray-50 rounded-lg p-4 shadow-sm flex items-center space-x-4">
+                    <img src="${album.ALBUMIMG}" alt="${album.ALBUMNAME}" class="w-16 h-16 rounded-md object-cover">
+                    <div>
+                        <p class="font-semibold text-gray-900">${album.ALBUMNAME}</p>
+                        <p class="text-sm text-gray-600">${album.ARTISTNAME}</p>
+                        <p class="text-xs text-gray-500">발매일: ${album.ISSUEDATE}</p>
+                    </div>
+                </div>
+            `;
+            albumList.insertAdjacentHTML('beforeend', albumCard);
+        });
+    }
+
+    function renderKeywordList(keywords) {
+        const keywordList = document.getElementById('keyword-list');
+        keywordList.innerHTML = '';
+        keywords.forEach(keyword => {
+            const keywordSpan = `
+                <span class="bg-emerald-100 text-emerald-800 text-sm font-medium px-3 py-1 rounded-full">
+                    ${keyword.KEYWORDDP}
+                </span>
+            `;
+            keywordList.insertAdjacentHTML('beforeend', keywordSpan);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+        const data = await fetchMelonData();
+        if (!data) return;
+        renderTop10Chart(data.SONGCONTENTS);
+        renderSongList(data.SONGCONTENTS);
+        renderArtistList(data.ARTISTCONTENTS);
+        renderAlbumList(data.ALBUMCONTENTS);
+        renderKeywordList(data.KEYWORDCONTENTS);
+    });
+    </script>
+</body>
+</html>
